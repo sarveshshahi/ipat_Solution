@@ -23,15 +23,16 @@ export default function Home5() {
                 <About />
                 <Feature />
                 <Solutions />
-                <Pricing />
+                {/* <Pricing /> */}
+                     <Team />
                 <Faqs />
-                <Team />
+           
                 <Video />
                 <Testimonial />
-                <About2 />
-                <Video2 />
+                {/* <About2 /> */}
+                {/* <Video2 /> */}
                 <Marquee />
-                <News />
+                {/* <News /> */}
                 <Contact />
             </Layout>
         </>

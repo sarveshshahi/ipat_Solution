@@ -75,8 +75,8 @@ const NavLinks = () => {
             </li>
 
             <li>
-                <Link href="/">Pages <i className="fa-solid fa-angle-down"></i></Link>
-                <ul className="sub-menu">
+                <Link href="/page-about">About Us <i className="fa-solid fa-angle-down"></i></Link>
+                {/* <ul className="sub-menu">
                     <li><Link href="/page-about">About Us</Link></li>
                     <li>
                         <Link href="/">Project <i className="fa-solid fa-angle-down"></i></Link>
@@ -106,7 +106,7 @@ const NavLinks = () => {
                         </ul>
                     </li>
                     <li><Link href="/page-404">404 Error</Link></li>
-                </ul>
+                </ul> */}
             </li>
 
             <li>
