@@ -7,7 +7,7 @@ const NavLinks = () => {
         <ul>
             <li>
                 <Link href="/">Home <i className="fa-solid fa-angle-down"></i></Link>
-                <ul className="sub-menu megamenu">
+                {/* <ul className="sub-menu megamenu">
                     <li>
                         <div className="row">
                             <div className="col">
@@ -71,7 +71,7 @@ const NavLinks = () => {
                             </div>
                         </div>
                     </li>
-                </ul>
+                </ul> */}
             </li>
 
             <li>

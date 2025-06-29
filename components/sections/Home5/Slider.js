@@ -32,9 +32,9 @@ function Slider() {
                         <svg className="icon" width="51" height="39" viewBox="0 0 51 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5.12096 35.4124C2.3293 32.3416 0.654297 28.9916 0.654297 23.4083C0.654297 13.6374 7.63346 4.98327 17.4043 0.516602L19.9168 4.14577C10.7043 9.17077 8.75013 15.5916 8.1918 19.7791C9.58763 18.9416 11.5418 18.6624 13.496 18.9416C18.521 19.4999 22.4293 23.4083 22.4293 28.7124C22.4293 31.2249 21.3126 33.7374 19.6376 35.6916C17.6835 37.6458 15.4501 38.4833 12.6585 38.4833C9.58763 38.4833 6.79596 37.0874 5.12096 35.4124ZM33.0376 35.4124C30.246 32.3416 28.571 28.9916 28.571 23.4083C28.571 13.6374 35.5501 4.98327 45.321 0.516602L47.8335 4.14577C38.621 9.17077 36.6668 15.5916 36.1085 19.7791C37.5043 18.9416 39.4585 18.6624 41.4126 18.9416C46.4376 19.4999 50.346 23.4083 50.346 28.7124C50.346 31.2249 49.2293 33.7374 47.5543 35.6916C45.8793 37.6458 43.3668 38.4833 40.5751 38.4833C37.5043 38.4833 34.7126 37.0874 33.0376 35.4124Z" fill="white" />
                         </svg>
-                        Hello! I’M <span id="typing-text" data-words="Michel Rony,Consultant"></span>
+                        Hello! I’M  <span id="typing-text" data-words="Michel Rony,Consultant"></span>
                     </h4>
-                    <h1 className="title wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Secure Your Future, Expert Insurance Consultation to Protect your Mattress!</h1>
+                    <h1 className="title wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms"> Unveiling Patents, Trademarks & Copyrights</h1>
                     <div className="info d-flex gap-3 align-items-center wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <svg data-depth="0.01" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_1349_6825)">

@@ -42,11 +42,11 @@ function About() {
                         <div className="about-five__wrp">
                             <div className="section-header mb-30">
                                 <h6>ABOUT STRATIFY</h6>
-                                <h2 className="wow splt-txt" data-splitting>we take a collaborative approach, working closely with each client to understand their opportunities.</h2>
+                                <h2 className="wow splt-txt" data-splitting>Our Story in Intellectual Property.</h2>
                             </div>
-                            <h4 className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">With 30 Years of
+                            <h4 className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">With 10 Years of
                                 Experience</h4>
-                            <p className="wow fadeInUp text mt-15" data-wow-delay="200ms" data-wow-duration="1500ms">Our team of industry experts combines decades of experience across various sectors to deliver results-driven solutions.</p>
+                            <p className="wow fadeInUp text mt-15" data-wow-delay="200ms" data-wow-duration="1500ms">We are a dedicated team of patent professionals, committed to excellence in patent services. With years of collective experience across diverse industries, we offer expert and collaborative partnerships to protect your innovations.</p>
                             <div className="btn-wrp">
                                 <Link href="/page-about" className="btn-one wow fadeInUp mt-50" data-wow-delay="300ms"
                                     data-wow-duration="1500ms" data-splitting data-text="Discover More">Discover
@@ -68,7 +68,7 @@ function About() {
                                     <Swiper {...swiperOptions} className="swiper-wrapper">
                                         <SwiperSlide className="swiper-slide">
                                             <div className="about-five__item">
-                                                <h2><span className="count"><CounterUp end={25} /></span>k+</h2>
+                                                <h2><span className="count"><CounterUp end={980} /></span>+</h2>
                                                 <h4 className="my-2">Customers Served</h4>
                                                 <p>Stratify provides comprehensive consultancy and training services, specializing in data-driven solutions.</p>
                                             </div>
@@ -76,15 +76,15 @@ function About() {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="about-five__item">
                                                 <h2><span className="count"><CounterUp end={120} /></span>+</h2>
-                                                <h4 className="my-2">Expert Team</h4>
-                                                <p>We are committed to continuous learning, ensuring that our clients always receive the best solutions available.</p>
+                                                <h4 className="my-2">Happy Customers</h4>
+                                                <p>Driven by Client Success</p>
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide className="swiper-slide">
                                             <div className="about-five__item">
-                                                <h2><span className="count"><CounterUp end={320} /></span>k+</h2>
-                                                <h4 className="my-2">Company Revenue</h4>
-                                                <p>Stratify provides comprehensive consultancy and training services, specializing in data-driven solutions.</p>
+                                                <h2><span className="count"><CounterUp end={90} /></span>%</h2>
+                                                <h4 className="my-2">Case Success Rate</h4>
+                                                <p>Commitment to Quality</p>
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide className="swiper-slide">
