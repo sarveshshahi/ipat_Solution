@@ -5,17 +5,13 @@ function About() {
 
     // Avoid duplicated list items by using arrays
     const listOne = [
-        "Strategic Analysis for Businesses",
-        "24/7 Support at Any Time",
-        "Exceptional Atmosphere",
-        "Complimentary Breakfast",
+        "10+ Years of Experienced",
+        "Projects Delivered Successfully",
     ];
 
     const listTwo = [
-        "Orientation for Business",
-        "No Booking Fees",
-        "Exceptional Atmosphere",
-        "Analyze the Problems You are Facing",
+        "10+ Language Experts",
+        "99% Case Success Rate",
     ];
 
     return (
@@ -26,14 +22,14 @@ function About() {
                     <div className="col-xl-6">
                         <div className="about-two-left">
                             <div className="section-header mb-50">
-                                <h6>ABOUT STRATIFY</h6>
-                                <h2 className="wow splt-txt" data-splitting>
+                                <h2 className="wow split-txt data-splitting">ABOUT US</h2>
+                                {/* <h2 className="wow splt-txt" data-splitting>
                                     We work with you to Make your <br /> Vision a Reality
-                                </h2>
+                                </h2> */}
                             </div>
 
                             <div className="about-two__image imageUpToDown wow gsap__parallax">
-                                <img src="assets/images/about/about-two-image.jpg" alt="image" />
+                                <img src="	https://ipatsolutions.com/assets/images/resource/about-8.jpg" alt="image" />
                                 <div className="about-two__rectangle">
                                     <div className="item-one wow" />
                                     <div className="item-two wow" />
@@ -48,11 +44,10 @@ function About() {
                         <div className="about-two-right">
                             <div className="section-header mb-40">
                                 <h2 className="wow splt-txt" data-splitting>
-                                    We offer solutions that create Significant opportunities for the growth of your business.
+                                    Let’s Explore Our Intellectual Property Journey
                                 </h2>
                                 <p className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    Being a prominent retail digital marketing company, we offer a variety of services to retail brands.
-                                    We help our clients create strategic and highly effective retail marketing strategies. Results oriented retail digital marketing campaigns.
+                                   We are a team of the dedicated patent professionals, united by our commitment to our excellence patent services. With years of collective experience acros diverse industries team of this dedicated patent professionals, united by our.
                                 </p>
                             </div>
 
@@ -77,8 +72,8 @@ function About() {
                             </div>
 
                             <Link href="/page-about" legacyBehavior>
-                                <a className="btn-one mt-50 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms" data-splitting data-text="Discover More">
-                                    Discover More
+                                <a className="btn-one mt-50 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms" data-splitting data-text="Know More">
+                                    Know More
                                 </a>
                             </Link>
                         </div>

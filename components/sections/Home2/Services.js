@@ -9,12 +9,12 @@ function Services() {
             <section id="service-menu" className="service-aera pt-130 pb-130">
                 <div className="container">
                     <div className="section-header mb-50">
-                        <h2 className="wow splt-txt" data-splitting>We Are Experts in Our Fields</h2>
-                        <p className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">True experts in the field will offer you the best strategy to navigate <br /> your investments.</p>
+                        <h4 className="wow splt-txt" data-splitting>Our Service</h4>
+                        <h2 className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Explore Creative Legal Protections</h2>
                     </div>
                     <div className="service__wrp">
                         <div className="row g-5">
-                            <div className="col-md-6 col-xl-3">
+                            <div className="col-md-6 col-xl-4">
                                 <div className="service__item">
                                     <div className="icon">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -31,14 +31,14 @@ function Services() {
                                             </defs>
                                         </svg>
                                     </div>
-                                    <h4><Link href="/page-service-details">Business Strategy and Planning</Link></h4>
+                                    <h4><Link href="/page-service-details">Patent Search</Link></h4>
                                     <div className="image">
-                                        <img src="assets/images/service/service-image1.jpg" alt="image" />
+                                        <img src="https://ipatsolutions.com/assets/images/resource/service-1.jpg" alt="image" />
                                     </div>
-                                    <p className="text">Business Consulting, Strategy, Branding Identity, Interaction Design & Development, & SEO</p>
+                                    <p className="text">Patent search is a crucial process in the field of intellectual property (IP)</p>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-xl-3">
+                            <div className="col-md-6 col-xl-4">
                                 <div className="service__item second-child">
                                     <div className="icon">
                                         <svg width="14" height="24" viewBox="0 0 14 24" fill="none"
@@ -55,14 +55,14 @@ function Services() {
                                             </defs>
                                         </svg>
                                     </div>
-                                    <h4><Link href="/page-service-details">International Business Consulting</Link></h4>
+                                    <h4><Link href="/page-service-details">Patent Drafting</Link></h4>
                                     <div className="image">
-                                        <img src="assets/images/service/service-image2.jpg" alt="image" />
+                                        <img src="https://ipatsolutions.com/assets/images/resource/service-2.jpg" alt="image" />
                                     </div>
-                                    <p className="text">Financial Consulting, Insurance Consulting, Financial Management, Investment</p>
+                                    <p className="text">Patent drafting is a critical step in the patent application process.</p>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-xl-3">
+                            <div className="col-md-6 col-xl-4">
                                 <div className="service__item">
                                     <div className="icon">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -78,39 +78,14 @@ function Services() {
                                                 fill="white" />
                                         </svg>
                                     </div>
-                                    <h4><Link href="/page-service-details">E-Commerce and Market</Link></h4>
+                                    <h4><Link href="/page-service-details">Landscape Analysis</Link></h4>
                                     <div className="image">
-                                        <img src="assets/images/service/service-image3.jpg" alt="image" />
+                                        <img src="https://ipatsolutions.com/assets/images/resource/service-3.jpg" alt="image" />
                                     </div>
-                                    <p className="text">Analysis Market. E-Commerce Strategy, <br /> Consumer Consulting</p>
+                                    <p className="text">Patent landscape analysis (or patent mapping) is a strategic tool used to.</p>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-xl-3">
-                                <div className="service__item last-child">
-                                    <div className="icon">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M8.57141 12.0002C9.41918 12.0002 10.2479 11.7488 10.9528 11.2778C11.6577 10.8068 12.2071 10.1373 12.5315 9.35409C12.8558 8.57084 12.9407 7.70898 12.7752 6.8775C12.6098 6.04603 12.2015 5.2823 11.602 4.68288C11.0025 4.08347 10.2387 3.67531 9.40715 3.51C8.57565 3.3447 7.71381 3.42969 6.93061 3.75422C6.14741 4.07875 5.47804 4.62825 5.00715 5.33322C4.53627 6.03819 4.28501 6.86696 4.28516 7.71474C4.28635 8.85109 4.73834 9.94054 5.54193 10.744C6.34552 11.5474 7.43506 11.9992 8.57141 12.0002Z"
-                                                fill="white" />
-                                            <path
-                                                d="M14.1788 15.5405C13.0926 14.4264 11.699 13.6614 10.176 13.3432C8.65303 13.0249 7.06973 13.1679 5.62839 13.7539C4.18705 14.3398 2.95309 15.3422 2.08414 16.6328C1.21519 17.9234 0.750703 19.4438 0.75 20.9997C0.75 21.1986 0.829018 21.3894 0.96967 21.53C1.11032 21.6707 1.30109 21.7497 1.5 21.7497H15.645C15.8439 21.7497 16.0347 21.6707 16.1753 21.53C16.316 21.3894 16.395 21.1986 16.395 20.9997C16.3979 20.2044 16.2751 19.4137 16.0312 18.6567C15.6681 17.4864 15.0333 16.4186 14.1788 15.5405Z"
-                                                fill="white" />
-                                            <path
-                                                d="M17.625 12.375C19.3854 12.375 20.8125 10.9479 20.8125 9.1875C20.8125 7.42709 19.3854 6 17.625 6C15.8646 6 14.4375 7.42709 14.4375 9.1875C14.4375 10.9479 15.8646 12.375 17.625 12.375Z"
-                                                fill="white" />
-                                            <path
-                                                d="M17.626 13.2529C16.6206 13.2567 15.6348 13.5305 14.7715 14.0457C14.9342 14.1912 15.0985 14.3344 15.2522 14.4919C16.2735 15.5416 17.0321 16.8178 17.4662 18.2164C17.6149 18.6769 17.7246 19.1491 17.794 19.6279H22.501C22.6999 19.6279 22.8907 19.5489 23.0313 19.4083C23.172 19.2676 23.251 19.0768 23.251 18.8779C23.2494 17.3866 22.6563 15.9568 21.6017 14.9022C20.5472 13.8477 19.1173 13.2545 17.626 13.2529Z"
-                                                fill="white" />
-                                        </svg>
-                                    </div>
-                                    <h4><Link href="/page-service-details">Human Resources and Management</Link></h4>
-                                    <div className="image">
-                                        <img src="assets/images/service/service-image4.jpg" alt="image" />
-                                    </div>
-                                    <p className="text">HR Consulting, Legal Advice, and Business ManagementSEO</p>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
