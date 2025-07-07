@@ -6,7 +6,7 @@ function Feature() {
     return (
         <>
             
-        <section className="feature-five-area have-margin pt-130">
+        <section className="feature-five-area have-margin pt-130 mb-4">
             <div className="container">
                 <div className="feature-five__wrp bg-sub">
                     <div className="row g-2">

@@ -83,10 +83,10 @@ const Header8 = ({ scroll }) => {
                 <div className="container">
                     <div className="header__main">
                         <Link href="/" className="logo logo-main">
-                            <img src="assets/images/logo/logo.png" alt="logo" />
+                            <img src="https://ipatsolutions.com/assets/images/IPAT.png" alt="logo" />
                         </Link>
                         <Link href="/" className="logo logo-light">
-                            <img src="assets/images/logo/logo-light.png" alt="logo" />
+                            <img src="https://ipatsolutions.com/assets/images/IPAT.png" alt="logo" />
                         </Link>
                         <div className="main-menu main-menu-light">
                             <nav>

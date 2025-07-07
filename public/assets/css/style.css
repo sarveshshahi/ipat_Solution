@@ -4465,7 +4465,7 @@ figure {
 }
 .header__main .main-menu ul li .sub-menu li a {
   display: block;
-  padding: 10px 20px;
+  padding: 5px 10px;
   color: var(--heading-color) !important;
 }
 .header__main .main-menu ul li .sub-menu li a i {
