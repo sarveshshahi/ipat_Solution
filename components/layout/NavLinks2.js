@@ -261,7 +261,7 @@ const NavLinks = () => {
             </li>
 
             <li>
-                <Link href="/page-portfolio">Portfolio <i className="fa-solid fa-angle-down"></i></Link>
+                <Link href="/page-portfolio">Consulting Services <i className="fa-solid fa-angle-down"></i></Link>
                 <ul className="sub-menu">
                     <li><Link href="/page-portfolio">Portfolio</Link></li>
                     <li><Link href="/page-portfolio-details">Portfolio Details</Link></li>
@@ -269,13 +269,13 @@ const NavLinks = () => {
             </li>
 
             <li>
-                <Link href="/">Blog <i className="fa-solid fa-angle-down"></i></Link>
+                <Link href="/">Industries <i className="fa-solid fa-angle-down"></i></Link>
                 <ul className="sub-menu">
                     <li><Link href="/news-grid">Blog Grid</Link></li>
                     <li><Link href="/news-details">Blog Details</Link></li>
                 </ul>
             </li>
-            <li><Link href="/contact">Contact</Link></li>
+            {/* <li><Link href="/contact"></Link></li> */}
         </ul>
 
     );
