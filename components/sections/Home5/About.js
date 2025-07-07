@@ -32,7 +32,7 @@ function About() {
                 <div className="row g-5">
                     <div className="col-xl-6">
                         <div className="about-five__image">
-                            <img src="https://ipatsolutions.com/assets/images/resource/about-1.jpg" alt="image" />
+                            <img src="https://ipatsolutions.com/assets/images/resource/about-8.jpg" alt="image" />
                             <div className="icon">
                                 <img className="animation__rotate" src="assets/images/about/about-five-icon.png" alt="icon" />
                             </div>
@@ -41,12 +41,12 @@ function About() {
                     <div className="col-xl-6">
                         <div className="about-five__wrp">
                             <div className="section-header mb-30">
-                                <h6>ABOUT STRATIFY</h6>
-                                <h2 className="wow splt-txt" data-splitting>Our Story in Intellectual Property.</h2>
+                                <h6>ABOUT IPAT</h6>
+                                <h2 className="wow splt-txt" data-splitting>Who We Are</h2>
                             </div>
-                            <h4 className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">With 10 Years of
-                                Experience</h4>
-                            <p className="wow fadeInUp text mt-15" data-wow-delay="200ms" data-wow-duration="1500ms">We are a dedicated team of patent professionals, committed to excellence in patent services. With years of collective experience across diverse industries, we offer expert and collaborative partnerships to protect your innovations.</p>
+                            {/* <h4 className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">With 10 Years of
+                                Experience</h4> */}
+                            <p className="wow fadeInUp text mt-15" data-wow-delay="200ms" data-wow-duration="1500ms">We are a full-spectrum intellectual property (IP) and technology consulting firm dedicated to helping businesses, inventors, law firms, R&D centers, and innovation-driven enterprises unlock the value of their ideas. With a team of experienced professionals, including patent analysts, technology specialists, and market researchers, we empower our clients to make strategic decisions at every stage of the innovation lifecycle.</p>
                             <div className="btn-wrp">
                                 <Link href="/page-about" className="btn-one wow fadeInUp mt-50" data-wow-delay="300ms"
                                     data-wow-duration="1500ms" data-splitting data-text="Discover More">Discover
@@ -54,7 +54,7 @@ function About() {
                                 <Link href="/contact" className="btn-two wow fadeInUp mt-50" data-wow-delay="400ms"
                                     data-wow-duration="1500ms" data-splitting data-text="Contact Us">Contact Us</Link>
                             </div>
-                            <div className="wrp mt-50">
+                            {/* <div className="wrp mt-50">
                                 <div className="head mb-30">
                                     <h5>Our Results <span className="line" /></h5>
                                     <div className="arry-wrp">
@@ -96,7 +96,7 @@ function About() {
                                         </SwiperSlide>
                                     </Swiper>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
