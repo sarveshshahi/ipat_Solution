@@ -30,7 +30,7 @@ function Testimonial() {
                     <div className="row g-5 align-items-center">
                         <div className="col-lg-6">
                             <div className="testimonial-five__image">
-                                <img src="assets/images/testimonial/testimonial-five-image.jpg" alt="image" />
+                                <img src="https://stratify-next.vercel.app/assets/images/testimonial/testimonial-five-image.jpg" alt="image" />
                                 <div className="image-content">
                                     <h4 className="title">5m+ Trusted <br /> Global Clients</h4>
                                     <div className="users">
@@ -56,9 +56,9 @@ function Testimonial() {
                                                     <svg width="38" height="29" viewBox="0 0 38 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M3.33333 26.0417C1.25 23.75 0 21.25 0 17.0833C0 9.79167 5.20833 3.33333 12.5 0L14.375 2.70833C7.5 6.45833 6.04167 11.25 5.625 14.375C6.66667 13.75 8.125 13.5417 9.58333 13.75C13.3333 14.1667 16.25 17.0833 16.25 21.0417C16.25 22.9167 15.4167 24.7917 14.1667 26.25C12.7083 27.7083 11.0417 28.3333 8.95833 28.3333C6.66667 28.3333 4.58333 27.2917 3.33333 26.0417ZM24.1667 26.0417C22.0833 23.75 20.8333 21.25 20.8333 17.0833C20.8333 9.79167 26.0417 3.33333 33.3333 0L35.2083 2.70833C28.3333 6.45833 26.875 11.25 26.4583 14.375C27.5 13.75 28.9583 13.5417 30.4167 13.75C34.1667 14.1667 37.0833 17.0833 37.0833 21.0417C37.0833 22.9167 36.25 24.7917 35 26.25C33.75 27.7083 31.875 28.3333 29.7917 28.3333C27.5 28.3333 25.4167 27.2917 24.1667 26.0417Z" fill="#121C27" />
                                                     </svg>
-                                                    Robert J. Hare / <span>Graphics Designer</span>
+                                                    US Attorney / <span>Graphics Designer</span>
                                                 </h4>
-                                                <p className="text">Climb the mountain not to plant your flag but to embrace the ways challenge, enjoy the air, and behold the. Climb it see the world, not so the world can see you.</p>
+                                                <p className="text">It was great working with Team IPAT, and I appreciate their fantastic support. Thank you for your wonderful contributions that resulted in the success of the projects. We express our gratitude and hope to engage again for future opportunities.</p>
                                                 <div className="ratting">
                                                     <img src="assets/images/icon/testi-logo.png" alt="icon" />
                                                     <img src="assets/images/icon/five-star.png" alt="icon" />
@@ -71,9 +71,9 @@ function Testimonial() {
                                                     <svg width="38" height="29" viewBox="0 0 38 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M3.33333 26.0417C1.25 23.75 0 21.25 0 17.0833C0 9.79167 5.20833 3.33333 12.5 0L14.375 2.70833C7.5 6.45833 6.04167 11.25 5.625 14.375C6.66667 13.75 8.125 13.5417 9.58333 13.75C13.3333 14.1667 16.25 17.0833 16.25 21.0417C16.25 22.9167 15.4167 24.7917 14.1667 26.25C12.7083 27.7083 11.0417 28.3333 8.95833 28.3333C6.66667 28.3333 4.58333 27.2917 3.33333 26.0417ZM24.1667 26.0417C22.0833 23.75 20.8333 21.25 20.8333 17.0833C20.8333 9.79167 26.0417 3.33333 33.3333 0L35.2083 2.70833C28.3333 6.45833 26.875 11.25 26.4583 14.375C27.5 13.75 28.9583 13.5417 30.4167 13.75C34.1667 14.1667 37.0833 17.0833 37.0833 21.0417C37.0833 22.9167 36.25 24.7917 35 26.25C33.75 27.7083 31.875 28.3333 29.7917 28.3333C27.5 28.3333 25.4167 27.2917 24.1667 26.0417Z" fill="#121C27" />
                                                     </svg>
-                                                    Leslie Alexander / <span>CEO & Founder</span>
+                                                   Lead IP, European-based firm / <span>CEO & Founder</span>
                                                 </h4>
-                                                <p className="text">Climb the mountain not to plant your flag but to embrace the ways challenge, enjoy the air, and behold the. Climb it see the world, not so the world can see you.</p>
+                                                <p className="text">Well done, you have done a very good job on the draft.</p>
                                                 <div className="ratting">
                                                     <img src="assets/images/icon/testi-logo.png" alt="icon" />
                                                     <img src="assets/images/icon/five-star.png" alt="icon" />
@@ -86,16 +86,16 @@ function Testimonial() {
                                                     <svg width="38" height="29" viewBox="0 0 38 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M3.33333 26.0417C1.25 23.75 0 21.25 0 17.0833C0 9.79167 5.20833 3.33333 12.5 0L14.375 2.70833C7.5 6.45833 6.04167 11.25 5.625 14.375C6.66667 13.75 8.125 13.5417 9.58333 13.75C13.3333 14.1667 16.25 17.0833 16.25 21.0417C16.25 22.9167 15.4167 24.7917 14.1667 26.25C12.7083 27.7083 11.0417 28.3333 8.95833 28.3333C6.66667 28.3333 4.58333 27.2917 3.33333 26.0417ZM24.1667 26.0417C22.0833 23.75 20.8333 21.25 20.8333 17.0833C20.8333 9.79167 26.0417 3.33333 33.3333 0L35.2083 2.70833C28.3333 6.45833 26.875 11.25 26.4583 14.375C27.5 13.75 28.9583 13.5417 30.4167 13.75C34.1667 14.1667 37.0833 17.0833 37.0833 21.0417C37.0833 22.9167 36.25 24.7917 35 26.25C33.75 27.7083 31.875 28.3333 29.7917 28.3333C27.5 28.3333 25.4167 27.2917 24.1667 26.0417Z" fill="#121C27" />
                                                     </svg>
-                                                    Arlene McCoy / <span>Co-Ordinator</span>
+                                                      Head, R&D / <span>Co-Ordinator</span>
                                                 </h4>
-                                                <p className="text">Climb the mountain not to plant your flag but to embrace the ways challenge, enjoy the air, and behold the. Climb it see the world, not so the world can see you.</p>
+                                                <p className="text">IPat Solutions delivered quality work in a timely manner, getting products to market as quickly as possible. The team was both organized and responsive but remained flexible in accommodating changes. Their unique approach to each project was a key strength.</p>
                                                 <div className="ratting">
                                                     <img src="assets/images/icon/testi-logo.png" alt="icon" />
                                                     <img src="assets/images/icon/five-star.png" alt="icon" />
                                                 </div>
                                             </div>
                                         </SwiperSlide>
-                                        <SwiperSlide className="swiper-slide">
+                                        {/* <SwiperSlide className="swiper-slide">
                                             <div className="testimonial-five__item">
                                                 <h4 className="title">
                                                     <svg width="38" height="29" viewBox="0 0 38 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -109,7 +109,7 @@ function Testimonial() {
                                                     <img src="assets/images/icon/five-star.png" alt="icon" />
                                                 </div>
                                             </div>
-                                        </SwiperSlide>
+                                        </SwiperSlide> */}
                                     </Swiper>
                                     <div className="mt-50">
                                         <div className="swiper__dots testimonial__dot" />

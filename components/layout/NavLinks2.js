@@ -74,6 +74,73 @@ const NavLinks = () => {
                 </ul> */}
             </li>
 
+            {/* <li>
+                <Link href="/page-about">About Us <i className="fa-solid fa-angle-down"></i></Link>
+                <ul className="sub-menu">
+                   
+                    <li>
+                        <Link href="/">Patent Searches <i className="fa-solid fa-angle-down"></i></Link>
+                        <ul className="sub-sub-menu">
+                            <li><Link href="/"> Patentability Search (or Novelty Search)</Link></li>
+                            <li><Link href="/index-2">Freedom to Operate (FTO) Search (or Clearance Search)</Link></li>
+                            <li><Link href="/index-3">Invalidity/Validity Search</Link></li>
+                            <li><Link href="/index-4">State of the Art Search</Link></li>
+                            <li><Link href="/index-5">Design Search</Link></li>
+                            <li><Link href="/index-6">Assignee Search</Link></li>
+                            <li><Link href="/index-7">Chemical Structure Search</Link></li>
+                            <li><Link href="/index-8">Non-Patent Literature Search</Link></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <Link href="/">IP Commercialization <i className="fa-solid fa-angle-down"></i></Link>
+                        <ul className="sub-sub-menu">
+                            <li><Link href="/index-11">Patent Valuation Service</Link></li>
+                            <li><Link href="/index-12">Patent Monetization Support</Link></li>
+                            <li><Link href="/index-13">Patent Infringement Analysis</Link></li>
+                            <li ><Link href="/">Evidence of Use (EoU) Chart Preparation</Link></li>
+                            <li><Link href="/index-single">Patent Licensing and Monetization</Link></li>
+                            <li><Link href="/index-2-single">Patent Infringer/Licensee Identification</Link></li>
+                            <li><Link href="/index-3-single">Patent Mining</Link></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <Link href="/">Patent Drafting & Illustrations<i className="fa-solid fa-angle-down"></i></Link>
+                        <ul className="sub-sub-menu">
+
+                            <li><Link href="/index-8-single">Patent Drafting</Link></li>
+                            <li><Link href="/index-9-single">Office Action Response</Link></li>
+                            <li><Link href="/index-10-single">Design Patent Drawings0</Link></li>
+                            <li><Link href="/index-11-single">Utility Patent Drawings</Link></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <Link href="/">Patent Analytics <i className="fa-solid fa-angle-down"></i></Link>
+                        <ul className="sub-sub-menu">
+                           
+                            <li><Link href="/index-dark">Competitive Intelligence</Link></li>
+                            <li><Link href="/index-2-dark">	Patent Monitoring</Link></li>
+                            <li><Link href="/index-3-dark">Landscape Analysis</Link></li>
+                            <li><Link href="/index-4-dark">Patent Watch Service</Link></li>
+                            <li><Link href="/index-5-dark">Patent Portfolio Management</Link></li>
+                            <li><Link href="/index-6-dark">Patent Competitive Benchmarking</Link></li>
+                        </ul>
+                    </li>
+
+                   
+                    <li>
+                        <Link href="/">Shop <i className="fa-solid fa-angle-down"></i></Link>
+                        <ul className="sub-sub-menu">
+                            <li><Link href="/shop-products">Shop Product</Link></li>
+                            <li><Link href="/shop-products-sidebar">Products Sidebar</Link></li>
+                            <li><Link href="/shop-product-details">Product Details</Link></li>
+                            <li><Link href="/shop-checkout">Checkout</Link></li>
+                            <li><Link href="/shop-cart">Cart</Link></li>
+                        </ul>
+                    </li>
+                    <li><Link href="/page-404">404 Error</Link></li>
+                </ul>
+            </li> */}
+            
             <li>
                 <Link href="/page-about">About Us <i className="fa-solid fa-angle-down"></i></Link>
                 {/* <ul className="sub-menu">
@@ -110,11 +177,87 @@ const NavLinks = () => {
             </li>
 
             <li>
-                <Link href="/">Services <i className="fa-solid fa-angle-down"></i></Link>
-                <ul className="sub-menu">
-                    <li><Link href="/page-services">Service Grid</Link></li>
-                    <li><Link href="/page-service-details">Service Details</Link></li>
+                <Link href="/">Patent Services <i className="fa-solid fa-angle-down"></i></Link>
+               
+
+                <ul className="sub-menu megamenu">
+                    <li>
+                        <div className="row">
+                            <div className="col">
+                                <ul>
+                                    <li className="title" style={{ color: 'green',fontSize:"18px", fontWeight:700}}>
+                                        Patent Searches
+                                    </li>
+                                    <li><Link href="/costom/PatentabilitySearch"> Patentability Search (or Novelty Search)</Link></li>
+                                    <li><Link href="/costom/freedom_to_operate">Freedom to Operate (FTO) Search (or Clearance Search)</Link></li>
+                                    <li><Link href="/costom/validity_search">Invalidity/Validity Search</Link></li>
+                                    <li><Link href="/costom/state_of_the_art_search">State of the Art Search</Link></li>
+                                    <li><Link href="/costom/design_search">Design Search</Link></li>
+                                    <li><Link href="/costom/assignee_search">Assignee Search</Link></li>
+                                    <li><Link href="/costom/chemical_structure_search">Chemical Structure Search</Link></li>
+                                    <li><Link href="/costom/non_patent_literature_search">Non-Patent Literature Search</Link></li>
+                                    {/* <li><Link href="/index-9">Home Page 09</Link></li>
+                                    <li><Link href="/index-10">Home Page 10</Link></li> */}
+                                </ul>
+                            </div>
+                            <div className="col">
+                                <ul>
+                                    {/* <li className="title"><Link href="/">IP Commercialization</Link></li> */}
+                                     <li className="title" style={{ color: 'green',fontSize:"18px", fontWeight:700}}>
+                                       IP Commercialization
+                                    </li>
+                                    <li><Link href="/IP_Commercialization/patient_valuation_service">Patent Valuation Service</Link></li>
+                                    <li><Link href="/IP_Commercialization/patent_monetization_support">Patent Monetization Support</Link></li>
+                                    <li><Link href="/IP_Commercialization/patent_infringement_analysis">Patent Infringement Analysis</Link></li>
+                                    <li ><Link href="/IP_Commercialization/evidence_of_use_eou_chart_preparation">Evidence of Use (EoU) Chart Preparation</Link></li>
+                                    <li><Link href="/IP_Commercialization/patent_licensingand_monetization">Patent Licensing and Monetization</Link></li>
+                                    <li><Link href="/IP_Commercialization/PatentInfringer_LicenseeIdentification">Patent Infringer/Licensee Identification</Link></li>
+                                    <li><Link href="/IP_Commercialization/patent_mining">Patent Mining</Link></li>
+
+                                </ul>
+                            </div>
+                            <div className="col">
+                                <ul>
+                                    {/* <li className="title"><Link href="/">Patent Drafting & Illustrations</Link></li> */}
+                                    <li className="title" style={{ color: 'green',fontSize:"18px", fontWeight:700}}>
+                                       Patent Drafting & Illustrations
+                                    </li>
+                                    <li><Link href="/index-8-single">Patent Drafting</Link></li>
+                                    <li><Link href="/index-9-single">Office Action Response</Link></li>
+                                    <li><Link href="/index-10-single">Design Patent Drawings0</Link></li>
+                                    <li><Link href="/index-11-single">Utility Patent Drawings</Link></li>
+                                      {/* <li className="title"><Link href="/">Patent Analytics</Link></li> */}
+                                     <li className="title" style={{ color: 'green',fontSize:"18px", fontWeight:700}}>
+                                       Patent Analytics
+                                    </li>
+                                    <li><Link href="/index-dark">Competitive Intelligence</Link></li>
+                                    <li><Link href="/index-2-dark">	Patent Monitoring</Link></li>
+                                    <li><Link href="/index-3-dark">Landscape Analysis</Link></li>
+                                    <li><Link href="/index-4-dark">Patent Watch Service</Link></li>
+                                    <li><Link href="/index-5-dark">Patent Portfolio Management</Link></li>
+                                    <li><Link href="/index-6-dark">Patent Competitive Benchmarking</Link></li>
+
+                                </ul>
+                            </div>
+                            {/* <div className="col">
+                                <ul>
+                                    <li className="title"><Link href="/">Patent Analytics</Link></li>
+                                     <li className="title" style={{ color: 'green',fontSize:"18px", fontWeight:700}}>
+                                       Patent Analytics
+                                    </li>
+                                    <li><Link href="/index-dark">Competitive Intelligence</Link></li>
+                                    <li><Link href="/index-2-dark">	Patent Monitoring</Link></li>
+                                    <li><Link href="/index-3-dark">Landscape Analysis</Link></li>
+                                    <li><Link href="/index-4-dark">Patent Watch Service</Link></li>
+                                    <li><Link href="/index-5-dark">Patent Portfolio Management</Link></li>
+                                    <li><Link href="/index-6-dark">Patent Competitive Benchmarking</Link></li>
+                                </ul>
+                            </div> */}
+                        </div>
+                    </li>
                 </ul>
+
+
             </li>
 
             <li>

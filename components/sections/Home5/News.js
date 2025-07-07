@@ -5,11 +5,10 @@ import Link from 'next/link';
 function News() {
     return (
         <>
-
         <section id='blog-menu' className="blog-five-area pt-130 pb-130">
             <div className="container">
                 <div className="section-header text-center mb-50">
-                    <h6>Our Blog</h6>
+                    <h6>Reasons to Choose Us</h6>
                     <h2 className="wow splt-txt" data-splitting>Check Latest Blog Post <br /> from Blog List</h2>
                 </div>
                 <div className="row g-4">

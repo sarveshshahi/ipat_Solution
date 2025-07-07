@@ -22,17 +22,16 @@ export default function Home5() {
                 <Slider />
                 <About />
                 <Feature />
-                <Solutions />
+                {/* <Solutions /> */}
                 {/* <Pricing /> */}
-                     <Team />
                 <Faqs />
-           
-                <Video />
+                {/* <Team /> */}
+                {/* <Video /> */}
                 <Testimonial />
                 {/* <About2 /> */}
                 {/* <Video2 /> */}
                 <Marquee />
-                {/* <News /> */}
+                <News />
                 <Contact />
             </Layout>
         </>

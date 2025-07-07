@@ -6,7 +6,7 @@ function Feature() {
     return (
         <>
             
-        <section className="feature-five-area have-margin pt-130">
+        <section className="feature-five-area have-margin pt-130 mb-4">
             <div className="container">
                 <div className="feature-five__wrp bg-sub">
                     <div className="row g-2">
@@ -35,8 +35,14 @@ function Feature() {
                                     </svg>
                                 </div>
                                 <div className="content">
-                                    <h4 className="mb-20 mt-40 title"><Link href="/page-service-details">Infrastructure Integration Technology</Link></h4>
-                                    <p className="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam</p>
+                                    <h4 className="mb-20 mt-40 title"><Link href="/page-service-details">Patent Search</Link></h4>
+                                    <ul>
+                                    <li className="text">We collect patent data using various subscription and free-to-access databases.   </li>
+                                    <li  className="text">
+                                        We use keyword searching, classification searching, name searching, and citation analysis to gather relevant patents and applications.
+
+                                    </li>
+                                    </ul>
                                     <Link href="/page-service-details" className="readMore-btn mt-30">Read More <i className="fa-regular fa-chevron-right" /></Link>
                                 </div>
                             </div>
@@ -59,8 +65,9 @@ function Feature() {
                                     </svg>
                                 </div>
                                 <div className="content">
-                                    <h4 className="title"><Link href="/page-service-details">Highly Professional & Expert Team Members</Link></h4>
-                                    <p className="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam</p>
+                                    <h4 className="title"><Link href="/page-service-details">Landscape Analytics</Link></h4>
+                                    <p className="text">Scientific analysis of a technology domain to derive actionable insights.</p>
+                                    <p className="text">Involves examining patent data to identify trends, opportunities, potential risks, and the competitive landscape.</p>
                                     <Link href="/page-service-details" className="readMore-btn mt-30">Read More <i className="fa-regular fa-chevron-right" /></Link>
                                 </div>
                             </div>
@@ -92,8 +99,9 @@ function Feature() {
                                     </svg>
                                 </div>
                                 <div className="content">
-                                    <h4 className="mb-20 mt-40 title"><Link href="/page-service-details">Information Security Management</Link></h4>
-                                    <p className="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam</p>
+                                    <h4 className="mb-20 mt-40 title"><Link href="/page-service-details">Patent Drafting & Illustrations:</Link></h4>
+                                    <p className="text">We draft patent applications based on the IP rules of jurisdictions such as the USPTO and EPO.</p>
+                                    <p className="text">Patent drafters create robust applications that stand up to scrutiny and protect the inventor's rights.</p>
                                     <Link href="/page-service-details" className="readMore-btn mt-30">Read More <i className="fa-regular fa-chevron-right" /></Link>
                                 </div>
                             </div>

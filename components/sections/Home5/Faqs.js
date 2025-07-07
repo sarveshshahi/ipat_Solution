@@ -35,12 +35,12 @@ function Faqs() {
                                 <div className="accordion-item">
                                     <h2 className="accordion-header">
                                         <button className={isActive.key == 1 ? "accordion-button collapsed" : "accordion-button"} onClick={() => handleToggle(1)} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            How can financial consulting help my business/personal finances?
+                                           Why Patents are important?
                                         </button>
                                     </h2>
                                     <div id="collapseOne" className={isActive.key == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            <p>We work with a variety of clients. We work with the heads of municipalities’ transportation planning, traffic engineering, or economic development departments.</p>
+                                            <p>Patents are vital for fostering a culture of innovation and technological advancement, driving economic growth, and providing a framework for protecting and sharing new ideas.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -48,12 +48,12 @@ function Faqs() {
                                     <h2 className="accordion-header">
                                         <button className={isActive.key == 2 ? "accordion-button collapsed" : "accordion-button"} onClick={() => handleToggle(2)} type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            What qualifications and certifications do your advisors have?
+                                           Can AI-based inventions be patented?
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" className={isActive.key == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            <p>We work with a variety of clients. We work with the heads of municipalities’ transportation planning, traffic engineering, or economic development departments.</p>
+                                            <p>Yes, AI-based inventions can be patented. The patentability of AI inventions depends on several factors, including the nature of the invention, the jurisdiction, and the specific requirements of the patent office. AI-based inventions can certainly be patented, provided they meet the necessary legal requirements and are properly documented and filed.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -61,16 +61,16 @@ function Faqs() {
                                     <h2 className="accordion-header">
                                         <button className={isActive.key == 3 ? "accordion-button collapsed" : "accordion-button"} onClick={() => handleToggle(3)} type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            What is the process for working with your firm?
+                                           Can I sell or license my patent?
                                         </button>
                                     </h2>
                                     <div id="collapseThree" className={isActive.key == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            <p>We work with a variety of clients. We work with the heads of municipalities’ transportation planning, traffic engineering, or economic development departments.</p>
+                                            <p>Yes, you can sell your patent rights outright or license them to others in exchange for royalties or other compensation. Licensing agreements can be exclusive or non-exclusive, depending on your preferences.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="accordion-item">
+                                {/* <div className="accordion-item">
                                     <h2 className="accordion-header">
                                         <button className={isActive.key == 4 ? "accordion-button collapsed" : "accordion-button"} onClick={() => handleToggle(4)} type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -108,14 +108,14 @@ function Faqs() {
                                             <p>We work with a variety of clients. We work with the heads of municipalities’ transportation planning, traffic engineering, or economic development departments.</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="col-xl-6">
                     <div className="faq__image gsap__parallax imageRightToLeft wow">
-                        <img src="assets/images/faq/faq-five-image.jpg" alt="image" />
+                        <img src="https://stratify-next.vercel.app/assets/images/faq/faq-five-image.jpg" alt="image" />
                     </div>
                 </div>
             </div>
