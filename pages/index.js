@@ -18,7 +18,7 @@ import Contact from "../components/sections/Home2/Contact";
 export default function Home5() {
     return (
         <>
-            <Layout HeaderStyle="eight" FooterStyle="three">
+            <Layout HeaderStyle="eight" FooterStyle="five">
                 <Slider />
                 <About />
                 <Feature />

@@ -11,7 +11,7 @@ const MobileMenu = () => {
         if (isActive.key === key) {
             setIsActive({
                 status: false,
-
+                key: "",
             });
         } else {
             setIsActive({
@@ -21,129 +21,74 @@ const MobileMenu = () => {
         }
     };
 
-
     return (
         <>
-
             <ul>
+                {/* Home */}
                 <li>
                     <Link href="/">Home <i className="fa-solid fa-angle-down" /></Link>
-                    <ul className={isActive.key === 1 ? "sub-menu d-block" : "d-none"}>
-                        <li><Link href="/">Home Page 1</Link></li>
-                        <li><Link href="/index-2">Home Page 2</Link></li>
-                        <li><Link href="/index-3">Home Page 3</Link></li>
-                        <li><Link href="/index-4">Home Page 4</Link></li>
-                        <li><Link href="/index-5">Home Page 5</Link></li>
-                        <li><Link href="/index-6">Home Page 5</Link></li>
-                        <li><Link href="/index-7">Home Page 5</Link></li>
-                        <li><Link href="/index-8">Home Page 8</Link></li>
-                        <li><Link href="/index-9">Home Page 9</Link></li>
-                        <li><Link href="/index-10">Home Page 10</Link></li>
-                        <li><Link href="/index-11">Home Page 11</Link></li>
-                        <li><Link href="/index-12">Home Page 12</Link></li>
-                        <li><Link href="/index-13">Home Page 13</Link></li>
-                        <li><Link href="/index-14">Home Page 14</Link></li>
-                        <li><Link href="/index-15">Home Page 15</Link></li>
-                        <li><Link href="/index-16">Home Page 16</Link></li>
-                        <li><Link href="/index-17">Home Page 17</Link></li>
-                        <li><Link href="/index-18">Home Page 18</Link></li>
-                        <li><Link href="/index-19">Home Page 19</Link></li>
-                        <li><Link href="/index-20">Home Page 20</Link></li>
-                    </ul>
-                    <div className={isActive.key === 1 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleClick(1)}><i className="fa fa-angle-down" /></div>
+                    
                 </li>
                 <li>
-                    <Link href="/">Home Single <i className="fa-solid fa-angle-down" /></Link>
-                    <ul className={isActive.key === 5 ? "sub-menu d-block" : "d-none"}>
-                        <li><Link href="/index-single">Single Page 1</Link></li>
-                        <li><Link href="/index-2-single">Single Page 2</Link></li>
-                        <li><Link href="/index-3-single">Single Page 3</Link></li>
-                        <li><Link href="/index-4-single">Single Page 4</Link></li>
-                        <li><Link href="/index-5-single">Single Page 5</Link></li>
-                        <li><Link href="/index-6-single">Single Page 5</Link></li>
-                        <li><Link href="/index-7-single">Single Page 5</Link></li>
-                        <li><Link href="/index-8-single">Single Page 8</Link></li>
-                        <li><Link href="/index-9-single">Single Page 9</Link></li>
-                        <li><Link href="/index-10-single">Single Page 10</Link></li>
-                        <li><Link href="/index-11-single">Single Page 11</Link></li>
-                        <li><Link href="/index-12-single">Single Page 12</Link></li>
-                        <li><Link href="/index-13-single">Single Page 13</Link></li>
-                        <li><Link href="/index-14-single">Single Page 14</Link></li>
-                        <li><Link href="/index-15-single">Single Page 15</Link></li>
-                        <li><Link href="/index-16-single">Single Page 16</Link></li>
-                        <li><Link href="/index-17-single">Single Page 17</Link></li>
-                        <li><Link href="/index-18-single">Single Page 18</Link></li>
-                        <li><Link href="/index-19-single">Single Page 19</Link></li>
-                        <li><Link href="/index-20-single">Single Page 20</Link></li>
-                    </ul>
-                    <div className={isActive.key === 5 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleClick(5)}><i className="fa fa-angle-down" /></div>
+                    <Link href="/page-about">About Us</Link>
                 </li>
+
+                {/* Patent Services (megamenu style, but as a long list for mobile) */}
                 <li>
-                    <Link href="/">Home Dark <i className="fa-solid fa-angle-down" /></Link>
-                    <ul className={isActive.key === 6 ? "sub-menu d-block" : "d-none"}>
-                        <li><Link href="/index-dark">Dark Page 1</Link></li>
-                        <li><Link href="/index-2-dark">Dark Page 2</Link></li>
-                        <li><Link href="/index-3-dark">Dark Page 3</Link></li>
-                        <li><Link href="/index-4-dark">Dark Page 4</Link></li>
-                        <li><Link href="/index-5-dark">Dark Page 5</Link></li>
-                        <li><Link href="/index-6-dark">Dark Page 5</Link></li>
-                        <li><Link href="/index-7-dark">Dark Page 5</Link></li>
-                        <li><Link href="/index-8-dark">Dark Page 8</Link></li>
-                        <li><Link href="/index-9-dark">Dark Page 9</Link></li>
-                        <li><Link href="/index-10-dark">Dark Page 10</Link></li>
-                        <li><Link href="/index-11-dark">Dark Page 11</Link></li>
-                        <li><Link href="/index-12-dark">Dark Page 12</Link></li>
-                        <li><Link href="/index-13-dark">Dark Page 13</Link></li>
-                        <li><Link href="/index-14-dark">Dark Page 14</Link></li>
-                        <li><Link href="/index-15-dark">Dark Page 15</Link></li>
-                        <li><Link href="/index-16-dark">Dark Page 16</Link></li>
-                        <li><Link href="/index-17-dark">Dark Page 17</Link></li>
-                        <li><Link href="/index-18-dark">Dark Page 18</Link></li>
-                        <li><Link href="/index-19-dark">Dark Page 19</Link></li>
-                        <li><Link href="/index-20-dark">Dark Page 20</Link></li>
-                    </ul>
-                    <div className={isActive.key === 6 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleClick(6)}><i className="fa fa-angle-down" /></div>
-                </li>
-                <li><Link href="/page-about">About Us</Link></li>
-                <li>
-                    <Link href="/">Services <i className="fa-solid fa-angle-down" /></Link>
+                    <Link href="#">Patent Services <i className="fa-solid fa-angle-down" /></Link>
                     <ul className={isActive.key === 2 ? "sub-menu d-block" : "d-none"}>
-                        <li><Link href="/page-services">Service Grid</Link></li>
-                        <li><Link href="/page-service-details">Service Details</Link></li>
+                        {/* Patent Searches */}
+                        <li className="title" style={{ color: 'green', fontSize: "18px", fontWeight: 700 }}>Patent Searches</li>
+                        <li><Link href="/costom/PatentabilitySearch">Patentability Search (or Novelty Search)</Link></li>
+                        <li><Link href="/costom/freedom_to_operate">Freedom to Operate (FTO) Search (or Clearance Search)</Link></li>
+                        <li><Link href="/costom/validity_search">Invalidity/Validity Search</Link></li>
+                        <li><Link href="/costom/state_of_the_art_search">State of the Art Search</Link></li>
+                        <li><Link href="/costom/design_search">Design Search</Link></li>
+                        <li><Link href="/costom/assignee_search">Assignee Search</Link></li>
+                        <li><Link href="/costom/chemical_structure_search">Chemical Structure Search</Link></li>
+                        <li><Link href="/costom/non_patent_literature_search">Non-Patent Literature Search</Link></li>
+                        {/* IP Commercialization */}
+                        <li className="title" style={{ color: 'green', fontSize: "18px", fontWeight: 700, marginTop: 10 }}>IP Commercialization</li>
+                        <li><Link href="/IP_Commercialization/patient_valuation_service">Patent Valuation Service</Link></li>
+                        <li><Link href="/IP_Commercialization/patent_monetization_support">Patent Monetization Support</Link></li>
+                        <li><Link href="/IP_Commercialization/patent_infringement_analysis">Patent Infringement Analysis</Link></li>
+                        <li><Link href="/IP_Commercialization/evidence_of_use_eou_chart_preparation">Evidence of Use (EoU) Chart Preparation</Link></li>
+                        <li><Link href="/IP_Commercialization/patent_licensingand_monetization">Patent Licensing and Monetization</Link></li>
+                        <li><Link href="/IP_Commercialization/PatentInfringer_LicenseeIdentification">Patent Infringer/Licensee Identification</Link></li>
+                        <li><Link href="/IP_Commercialization/patent_mining">Patent Mining</Link></li>
+                        {/* Patent Drafting & Illustrations */}
+                        <li className="title" style={{ color: 'green', fontSize: "18px", fontWeight: 700, marginTop: 10 }}>Patent Drafting & Illustrations</li>
+                        <li><Link href="/PatentDrafting&Illustrations/patent_drafting">Patent Drafting</Link></li>
+                        <li><Link href="/PatentDrafting&Illustrations/office_action_response">Office Action Response</Link></li>
+                        <li><Link href="/PatentDrafting&Illustrations/design_patent_drawings">Design Patent Drawings</Link></li>
+                        <li><Link href="/PatentDrafting&Illustrations/utility_patent_drawings">Utility Patent Drawings</Link></li>
+                        {/* Patent Analytics */}
+                        <li className="title" style={{ color: 'green', fontSize: "18px", fontWeight: 700, marginTop: 10 }}>Patent Analytics</li>
+                        <li><Link href="/Patent_Analytics/competitive_intelligence">Competitive Intelligence</Link></li>
+                        <li><Link href="/Patent_Analytics/Patent_Monitoring">Patent Monitoring</Link></li>
+                        <li><Link href="/Patent_Analytics/Landscape_Analysis">Landscape Analysis</Link></li>
+                        <li><Link href="/Patent_Analytics/Patent_Watch_Service">Patent Watch Service</Link></li>
+                        <li><Link href="/Patent_Analytics/Patent_Portfolio_Management">Patent Portfolio Management</Link></li>
+                        <li><Link href="/Patent_Analytics/Patent_Competitive_Benchmarking">Patent Competitive Benchmarking</Link></li>
                     </ul>
                     <div className={isActive.key === 2 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleClick(2)}><i className="fa fa-angle-down" /></div>
                 </li>
-                <li>
-                    <Link href="/">Pages <i className="fa-solid fa-angle-down" /></Link>
-                    <ul className={isActive.key === 3 ? "sub-menu d-block" : "d-none"}>
-                        <li><Link href="/contact">Contact V1</Link></li>
-                        <li><Link href="/page-gallery">Gallery</Link></li>
-                        <li><Link href="/page-projects">Project Grid</Link></li>
-                        <li><Link href="/page-project-details">Project Details</Link></li>
-                        <li><Link href="/page-team">Team</Link></li>
-                        <li><Link href="/page-team-details">Team Details</Link></li>
-                        <li><Link href="/page-testimonial">Testimonials</Link></li>
-                        <li><Link href="/page-faq">FAQ’s</Link></li>
-                        <li><Link href="/shop-products">Shop Product</Link></li>
-                        <li><Link href="/shop-products-sidebar">Products Sidebar</Link></li>
-                        <li><Link href="/shop-product-details">Product Details</Link></li>
-                        <li><Link href="/shop-checkout">Checkout</Link></li>
-                        <li><Link href="/shop-cart">Cart</Link></li>
-                        <li><Link href="/page-404">404 Error</Link></li>
-                    </ul>
-                    <div className={isActive.key === 3 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleClick(3)}><i className="fa fa-angle-down" /></div>
-                </li>
-                <li>
-                    <Link href="/">Blog <i className="fa-solid fa-angle-down" /></Link>
-                    <ul className={isActive.key === 4 ? "sub-menu d-block" : "d-none"}>
-                        <li><Link href="/news-grid">Blog Grid</Link></li>
-                        <li><Link href="/news-details">Blog Details</Link></li>
-                    </ul>
-                    <div className={isActive.key === 4 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleClick(4)}><i className="fa fa-angle-down" /></div>
-                </li>
-                <li><Link href="/page-contact">Contact</Link></li>
-            </ul>
 
+                {/* Consulting Services */}
+                <li>
+                    <Link href="/TechnologyConsulting/technology_consulting">Consulting Services</Link>
+                </li>
+
+                {/* Industries */}
+                <li>
+                    <Link href="/page-services">Industries</Link>
+                </li>
+
+                {/* Contact Us */}
+                <li>
+                    <Link href="/contact">Contact Us</Link>
+                </li>
+            </ul>
         </>
     );
 };

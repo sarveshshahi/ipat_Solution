@@ -92,16 +92,16 @@ const Header8 = ({ scroll }) => {
                             <nav>
                                 <NavLinks />
                             </nav>
-                            {/* <div className="menu-btns light">
-                                <button className="search-trigger d-none d-lg-block" onClick={handleToggleSearch}>
+                            <div className="menu-btns light">
+                                {/* <button className="search-trigger d-none d-lg-block" onClick={handleToggleSearch}>
                                     <i className="fa-light fa-magnifying-glass"></i>
-                                </button>
+                                </button> */}
                                 <button className="menubars menubars-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#menubar" onClick={handleToggleSidebar}>
                                     <span></span>
                                     <span></span>
                                     <span></span>
                                 </button>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>

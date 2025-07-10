@@ -18,7 +18,7 @@ function Slider() {
 
         <section id='home-menu' className="banner-five-area paralax__animation">
             <video className="banner-five__video parallaxScaleScroll" ref={videoRef} muted loop playsInline autoPlay>
-                <source src="assets/images/video/banner-five-video.mp4" type="video/mp4" />
+                <source src="assets/images/video/home.webm" type="video/mp4" />
             </video>
             <div className="banner-five__signature">
                 <img data-depth="0.03" src="assets/images/banner/banner-five-signature.png" alt="image" />
