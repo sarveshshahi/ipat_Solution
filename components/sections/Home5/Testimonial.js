@@ -31,15 +31,15 @@ function Testimonial() {
                         <div className="col-lg-6">
                             <div className="testimonial-five__image">
                                 <img src="https://stratify-next.vercel.app/assets/images/testimonial/testimonial-five-image.jpg" alt="image" />
-                                <div className="image-content">
-                                    <h4 className="title">5m+ Trusted <br /> Global Clients</h4>
+                                {/* <div className="image-content">
+                                    <h4 className="title">5m+ Truste<br /> Global Clients</h4>
                                     <div className="users">
                                         <Link href="/"><img src="assets/images/testimonial/testimonial-five-user1.png" alt="image" /></Link>
                                         <Link href="/"><img src="assets/images/testimonial/testimonial-five-user2.png" alt="image" /></Link>
                                         <Link href="/"><img src="assets/images/testimonial/testimonial-five-user3.png" alt="image" /></Link>
                                         <Link className="icon" href="/"><i className="fa-sharp fa-solid fa-plus" /></Link>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-lg-6">
