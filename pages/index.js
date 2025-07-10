@@ -30,7 +30,7 @@ export default function Home5() {
                 <Testimonial />
                 {/* <About2 /> */}
                 {/* <Video2 /> */}
-                <Marquee />
+                {/* <Marquee /> */}
                 <News />
                 <Contact />
             </Layout>
