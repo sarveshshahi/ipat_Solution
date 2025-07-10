@@ -31,7 +31,7 @@ export default function Home5() {
                 {/* <About2 /> */}
                 {/* <Video2 /> */}
                 {/* <Marquee /> */}
-                <News />
+                {/* <News /> */}
                 <Contact />
             </Layout>
         </>

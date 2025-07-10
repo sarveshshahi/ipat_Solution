@@ -84,9 +84,9 @@ function Feature() {
                                     </svg>
                                 </div>
                                 <div className="content">
-                                    <h5 className="title"><Link href="/page-service-details">Patent Drafting & Illustrations </Link></h5>
+                                    <h5 className="title"><Link href="/PatentDrafting&Illustrations/patent_drafting">Patent Drafting & Illustrations </Link></h5>
                                     {/* <p className="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam</p> */}
-                                    <Link href="/page-service-details" className="readMore-btn mt-30">Read More <i className="fa-regular fa-chevron-right" /></Link>
+                                    <Link href="/PatentDrafting&Illustrations/patent_drafting" className="readMore-btn mt-30">Read More <i className="fa-regular fa-chevron-right" /></Link>
                                 </div>
                             </div>
                         </div>
@@ -117,9 +117,9 @@ function Feature() {
                                     </svg>
                                 </div>
                                 <div className="content">
-                                    <h5 className="mb-20 mt-40 title"><Link href="/page-service-details">Patent Analytics</Link></h5>
+                                    <h5 className="mb-20 mt-40 title"><Link href="/Patent_Analytics/competitive_intelligences">Patent Analytics</Link></h5>
                                     {/* <p className="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam</p> */}
-                                    <Link href="/page-service-details" className="readMore-btn mt-30">Read More <i className="fa-regular fa-chevron-right" /></Link>
+                                    <Link href="/Patent_Analytics/competitive_intelligence" className="readMore-btn mt-30">Read More <i className="fa-regular fa-chevron-right" /></Link>
                                 </div>
                             </div>
                         </div>
@@ -158,7 +158,7 @@ function Feature() {
                                     </svg>
                                 </div>
                                 <div className="content">
-                                    <h5 className="mb-20 mt-40 title"><Link href="/costom/PatentabilitySearch">Technological Science</Link></h5>
+                                    <h5 className="mb-20 mt-40 title"><Link href="/page-services">Technological Science</Link></h5>
                                     {/* <p className="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam</p> */}
                                     <Link href="/costom/PatentabilitySearch" className="readMore-btn mt-30">Read More <i className="fa-regular fa-chevron-right" /></Link>
                                 </div>
@@ -184,7 +184,7 @@ function Feature() {
                                 <div className="content">
                                     <h5 className="title"><Link href="/IP_Commercialization/patient_valuation_service">Environmental <br></br>science</Link></h5>
                                     {/* <p className="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam</p> */}
-                                    <Link href="/IP_Commercialization/patient_valuation_service" className="readMore-btn mt-30">Read More <i className="fa-regular fa-chevron-right" /></Link>
+                                    <Link href="/page-services" className="readMore-btn mt-30">Read More <i className="fa-regular fa-chevron-right" /></Link>
                                 </div>
                             </div>
                         </div>
@@ -206,9 +206,9 @@ function Feature() {
                                     </svg>
                                 </div>
                                 <div className="content">
-                                    <h5 className="title"><Link href="/page-service-details">Information & Communication Technology </Link></h5>
+                                    <h5 className="title"><Link href="/page-services">Information & Communication Technology </Link></h5>
                                     {/* <p className="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam</p> */}
-                                    <Link href="/page-service-details" className="readMore-btn mt-30">Read More <i className="fa-regular fa-chevron-right" /></Link>
+                                    <Link href="/page-services" className="readMore-btn mt-30">Read More <i className="fa-regular fa-chevron-right" /></Link>
                                 </div>
                             </div>
                         </div>

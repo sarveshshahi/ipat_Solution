@@ -121,7 +121,7 @@ function Footer5Dark() {
                                         <div className="footer-eleven__item">
                                             <h5 className="title">Contact Us</h5>
                                             <ul>
-                                                <li><Link href="/">stratify@example.com</Link></li>
+                                                <li><Link href="/"> info@ipat-solutions.com</Link></li>
                                                 <li><Link href="/">+1 234 5644 5698</Link></li>
                                             </ul>
                                         </div>

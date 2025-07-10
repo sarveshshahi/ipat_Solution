@@ -6,7 +6,7 @@ const NavLinks = () => {
 
         <ul>
             <li>
-                <Link href="/">Home <i className="fa-solid fa-angle-down"></i></Link>
+                <li><Link href="/">Home</Link></li>
                 {/* <ul className="sub-menu megamenu">
                     <li>
                         <div className="row">
@@ -142,7 +142,7 @@ const NavLinks = () => {
             </li> */}
             
             <li>
-                <Link href="/page-about">About Us <i className="fa-solid fa-angle-down"></i></Link>
+               <li> <Link href="/page-about">About Us </Link></li>
                 {/* <ul className="sub-menu">
                     <li><Link href="/page-about">About Us</Link></li>
                     <li>

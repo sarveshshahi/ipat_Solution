@@ -19,7 +19,7 @@ const Header8 = ({ scroll }) => {
                     <div className="header-top__wrp">
                         <ul className="header-top__links">
                             {/* <li><i className="fa-light fa-location-dot" /><Link href="/">121 King Street, Melbourne</Link></li> */}
-                            <li><i className="fa-light fa-envelope-open-text" /><Link href="/">info.company@gmail.com</Link></li>
+                            <li><i className="fa-light fa-envelope-open-text" /><Link href="/"> info@ipat-solutions.com</Link></li>
                         </ul>
                         <div className="header-top__socials">
                             {/* <Link href="/">
@@ -92,7 +92,7 @@ const Header8 = ({ scroll }) => {
                             <nav>
                                 <NavLinks />
                             </nav>
-                            <div className="menu-btns light">
+                            <div className="menu-btns light  d-block d-lg-none">
                                 {/* <button className="search-trigger d-none d-lg-block" onClick={handleToggleSearch}>
                                     <i className="fa-light fa-magnifying-glass"></i>
                                 </button> */}
@@ -109,7 +109,7 @@ const Header8 = ({ scroll }) => {
 
             <div className={`sidebar-area offcanvas offcanvas-end ${sidebarToggle ? "show" : ""}`} id="menubar">
                 <div className="offcanvas-header">
-                    <Link href="/" className="logo"><img src="assets/images/logo/logo-light.png" alt="logo" /></Link>
+                    <Link href="/" className="logo"><img src="assets/images/logo/IPAT.png" alt="logo" /></Link>
                     <button type="button" className="btn-close" onClick={handleToggleSidebar}>
                         <i className="fa-regular fa-xmark" />
                     </button>
@@ -122,7 +122,7 @@ const Header8 = ({ scroll }) => {
                             </nav>
                         </div>
                     </div>
-                    <div className="d-none d-lg-block">
+                    {/* <div className="d-none d-lg-block">
                         <h5 className="text-white mb-20">About Us</h5>
                         <p className="sidebar__text">Unleash the full potential of your website and elevate its online presence with our comprehensive consultation solutions.</p>
                     </div>
@@ -131,7 +131,7 @@ const Header8 = ({ scroll }) => {
                         <ul>
                             <li><i className="fa-solid fa-location-dot" /><Link href="/">121 King Street, Melbourne</Link></li>
                             <li className="py-2"><i className="fa-solid fa-phone-volume" /><Link href="/tel:+912659302003">+91 2659302 003</Link></li>
-                            <li><i className="fa-solid fa-paper-plane" /><Link href="/">info.company@gmail.com</Link></li>
+                            <li><i className="fa-solid fa-paper-plane" /><Link href="/"> info@ipat-solutions.com</Link></li>
                         </ul>
                     </div>
                     <div className="sidebar__btns my-4">
@@ -169,7 +169,7 @@ const Header8 = ({ scroll }) => {
                                 </Link>
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

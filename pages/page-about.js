@@ -10,13 +10,13 @@ export default function AboutUS() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout HeaderStyle="eight">
                 <PageTitle pageName="About Us" />
                 <About />
                 <Projects />
                 <Services />
                 <Pricing />
-                <Brand />
+                {/* <Brand /> */}
             </Layout>
         </>
     );

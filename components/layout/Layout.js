@@ -120,7 +120,7 @@ const Layout = ({ children, HeaderStyle, FooterStyle, styleMode}) => {
 
                 {children}
 
-                {!FooterStyle && <Footer />}
+                {!FooterStyle && <Footer5 />}
                 {FooterStyle === "two" && <Footer2 />}
                 {FooterStyle === "three" && <Footer3 />}
                 {FooterStyle === "four" && <Footer4 />}

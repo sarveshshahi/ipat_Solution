@@ -19,7 +19,7 @@ const Header8Single = ({ scroll }) => {
                     <div className="header-top__wrp">
                         <ul className="header-top__links">
                             <li><i className="fa-light fa-location-dot" /><Link href="/">121 King Street, Melbourne</Link></li>
-                            <li><i className="fa-light fa-envelope-open-text" /><Link href="/">info.company@gmail.com</Link></li>
+                            <li><i className="fa-light fa-envelope-open-text" /><Link href="/"> info@ipat-solutions.com</Link></li>
                         </ul>
                         <div className="header-top__socials">
                             <Link href="/">
@@ -132,7 +132,7 @@ const Header8Single = ({ scroll }) => {
                         <ul>
                             <li><i className="fa-solid fa-location-dot" /><Link href="/">121 King Street, Melbourne</Link></li>
                             <li className="py-2"><i className="fa-solid fa-phone-volume" /><Link href="/tel:+912659302003">+91 2659302 003</Link></li>
-                            <li><i className="fa-solid fa-paper-plane" /><Link href="/">info.company@gmail.com</Link></li>
+                            <li><i className="fa-solid fa-paper-plane" /><Link href="/"> info@ipat-solutions.com</Link></li>
                         </ul>
                     </div>
                     <div className="sidebar__btns my-4">
