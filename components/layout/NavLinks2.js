@@ -222,20 +222,20 @@ const NavLinks = () => {
                                     <li className="title" style={{ color: 'green',fontSize:"18px", fontWeight:700}}>
                                        Patent Drafting & Illustrations
                                     </li>
-                                    <li><Link href="/index-8-single">Patent Drafting</Link></li>
-                                    <li><Link href="/index-9-single">Office Action Response</Link></li>
-                                    <li><Link href="/index-10-single">Design Patent Drawings0</Link></li>
-                                    <li><Link href="/index-11-single">Utility Patent Drawings</Link></li>
+                                    <li><Link href="/PatentDrafting&Illustrations/patent_drafting">Patent Drafting</Link></li>
+                                    <li><Link href="/PatentDrafting&Illustrations/office_action_response">Office Action Response</Link></li>
+                                    <li><Link href="/PatentDrafting&Illustrations/design_patent_drawings">Design Patent Drawings</Link></li>
+                                    <li><Link href="/PatentDrafting&Illustrations/utility_patent_drawings">Utility Patent Drawings</Link></li>
                                       {/* <li className="title"><Link href="/">Patent Analytics</Link></li> */}
                                      <li className="title" style={{ color: 'green',fontSize:"18px", fontWeight:700}}>
                                        Patent Analytics
                                     </li>
-                                    <li><Link href="/index-dark">Competitive Intelligence</Link></li>
-                                    <li><Link href="/index-2-dark">	Patent Monitoring</Link></li>
-                                    <li><Link href="/index-3-dark">Landscape Analysis</Link></li>
-                                    <li><Link href="/index-4-dark">Patent Watch Service</Link></li>
-                                    <li><Link href="/index-5-dark">Patent Portfolio Management</Link></li>
-                                    <li><Link href="/index-6-dark">Patent Competitive Benchmarking</Link></li>
+                                    <li><Link href="/Patent_Analytics/competitive_intelligence">Competitive Intelligence</Link></li>
+                                    <li><Link href="/Patent_Analytics/Patent_Monitoring">	Patent Monitoring</Link></li>
+                                    <li><Link href="/Patent_Analytics/Landscape_Analysis">Landscape Analysis</Link></li>
+                                    <li><Link href="/Patent_Analytics/Patent_Watch_Service">Patent Watch Service</Link></li>
+                                    <li><Link href="/Patent_Analytics/Patent_Portfolio_Management">Patent Portfolio Management</Link></li>
+                                    <li><Link href="/Patent_Analytics/Patent_Competitive_Benchmarking">Patent Competitive Benchmarking</Link></li>
 
                                 </ul>
                             </div>
@@ -261,21 +261,23 @@ const NavLinks = () => {
             </li>
 
             <li>
-                <Link href="/page-portfolio">Portfolio <i className="fa-solid fa-angle-down"></i></Link>
-                <ul className="sub-menu">
+                 <li><Link href="/TechnologyConsulting/technology_consulting">Consulting Services </Link></li>
+                {/* <Link href="/TechnologyConsulting/technology_consulting">Consulting Services <i className="fa-solid fa-angle-down"></i></Link> */}
+                {/* <ul className="sub-menu">
                     <li><Link href="/page-portfolio">Portfolio</Link></li>
                     <li><Link href="/page-portfolio-details">Portfolio Details</Link></li>
-                </ul>
+                </ul> */}
             </li>
 
             <li>
-                <Link href="/">Blog <i className="fa-solid fa-angle-down"></i></Link>
-                <ul className="sub-menu">
+                {/* <Link href="/">Industries <i className="fa-solid fa-angle-down"></i></Link> */}
+                <li><Link href="/page-services">Industries </Link></li>
+                {/* <ul className="sub-menu">
                     <li><Link href="/news-grid">Blog Grid</Link></li>
                     <li><Link href="/news-details">Blog Details</Link></li>
-                </ul>
+                </ul> */}
             </li>
-            <li><Link href="/contact">Contact</Link></li>
+            <li><Link href="/contact">Contact Us</Link></li>
         </ul>
 
     );

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 // Make sure Font Awesome CSS is loaded in your _app.js or _document.js
 
-function ServicesGrid() {
+function industrie_service() {
     const [hovered, setHovered] = useState(null);
 
     const cardStyle = {
@@ -98,4 +98,4 @@ function ServicesGrid() {
         </>
     );
 }
-export default ServicesGrid;
+export default industrie_service;

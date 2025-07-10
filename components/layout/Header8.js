@@ -18,11 +18,11 @@ const Header8 = ({ scroll }) => {
                 <div className="container">
                     <div className="header-top__wrp">
                         <ul className="header-top__links">
-                            <li><i className="fa-light fa-location-dot" /><Link href="/">121 King Street, Melbourne</Link></li>
+                            {/* <li><i className="fa-light fa-location-dot" /><Link href="/">121 King Street, Melbourne</Link></li> */}
                             <li><i className="fa-light fa-envelope-open-text" /><Link href="/">info.company@gmail.com</Link></li>
                         </ul>
                         <div className="header-top__socials">
-                            <Link href="/">
+                            {/* <Link href="/">
                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M11.4023 1.40625H13.4707L8.95313 6.56836L14.2676 13.5938H10.1074L6.84668 9.33398L3.12012 13.5938H1.04883L5.87988 8.07129L0.785156 1.40625H5.05078L7.99512 5.2998L11.4023 1.40625ZM10.6758 12.3574H11.8213L4.42676 2.57812H3.19629L10.6758 12.3574Z"
@@ -42,7 +42,7 @@ const Header8 = ({ scroll }) => {
                                         </clipPath>
                                     </defs>
                                 </svg>
-                            </Link>
+                            </Link> */}
                             <Link href="/"><svg width="13" height="15" viewBox="0 0 13 15" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -54,7 +54,7 @@ const Header8 = ({ scroll }) => {
                                         fill="white" />
                                 </svg>
                             </Link>
-                            <Link className="pe-0" href="/"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                            {/* <Link className="pe-0" href="/"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <g clipPath="url(#clip0_1349_8259)">
                                         <path
@@ -73,7 +73,7 @@ const Header8 = ({ scroll }) => {
                                         </clipPath>
                                     </defs>
                                 </svg>
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ const Header8 = ({ scroll }) => {
                             <nav>
                                 <NavLinks />
                             </nav>
-                            <div className="menu-btns light">
+                            {/* <div className="menu-btns light">
                                 <button className="search-trigger d-none d-lg-block" onClick={handleToggleSearch}>
                                     <i className="fa-light fa-magnifying-glass"></i>
                                 </button>
@@ -101,7 +101,7 @@ const Header8 = ({ scroll }) => {
                                     <span></span>
                                     <span></span>
                                 </button>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

@@ -7,10 +7,10 @@ export default function ServiceGridPage() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
-                <PageTitle pageName="Service Grid" />
+            <Layout HeaderStyle="eight">
+                <PageTitle pageName="Industries" />
                 <ServiceGrid />
-                <Brand />
+                {/* <Brand /> */}
             </Layout>
         </>
     );
