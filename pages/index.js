@@ -18,7 +18,7 @@ import Contact from "../components/sections/Home2/Contact";
 export default function Home5() {
     return (
         <>
-            <Layout HeaderStyle="eight" FooterStyle="three">
+            <Layout HeaderStyle="two" FooterStyle="eight">
                 <Slider />
                 <About />
                 <Feature />
@@ -30,7 +30,7 @@ export default function Home5() {
                 <Testimonial />
                 {/* <About2 /> */}
                 {/* <Video2 /> */}
-                <Marquee />
+                {/* <Marquee /> */}
                 <News />
                 <Contact />
             </Layout>
