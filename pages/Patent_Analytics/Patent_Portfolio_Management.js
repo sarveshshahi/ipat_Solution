@@ -9,7 +9,7 @@ export default function Patent_Portfolio_Management() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="IP Commercialization" />
+                <PageTitle pageName="Patent Portfolio Management" />
                <PatentPortfolioManagement/>
             </Layout>
         </>

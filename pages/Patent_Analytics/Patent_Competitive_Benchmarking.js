@@ -9,7 +9,7 @@ export default function Patent_Competitive_Benchmarking() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="IP Commercialization" />
+                <PageTitle pageName="Patent Competitive Benchmarking" />
                <PatentCompetitiveBenchmarking/>
             </Layout>
         </>

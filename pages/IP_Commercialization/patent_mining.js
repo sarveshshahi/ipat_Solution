@@ -7,7 +7,7 @@ export default function patent_mining() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="IP Commercialization" />
+                <PageTitle pageName="Patent Mining" />
                <PatentMining />
             </Layout>
         </>

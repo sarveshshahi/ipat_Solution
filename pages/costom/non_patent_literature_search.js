@@ -8,7 +8,7 @@ export default function non_patent_literature_search() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="Project Details" />
+                <PageTitle pageName=" NonPatent Literature Search" />
                 < Non_Patent_Literature_Search/>
             </Layout>
         </>

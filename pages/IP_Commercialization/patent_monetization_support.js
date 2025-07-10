@@ -7,7 +7,7 @@ export default function patent_monetization_support() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="IP Commercialization" />
+                <PageTitle pageName="Patent Monetization Support" />
                <PatentMonetizationSupport />
             </Layout>
         </>

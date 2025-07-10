@@ -7,7 +7,7 @@ export default function PatentabilitySearch() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="Project Details" />
+                <PageTitle pageName="Patentability" />
                 <Patentability />
             </Layout>
         </>

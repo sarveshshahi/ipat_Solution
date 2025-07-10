@@ -7,7 +7,7 @@ export default function patient_valuation_service() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="IP Commercialization" />
+                <PageTitle pageName="Patent Valuation Service" />
                <PatentValuationService />
             </Layout>
         </>

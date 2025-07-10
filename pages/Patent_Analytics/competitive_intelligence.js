@@ -9,7 +9,7 @@ export default function competitive_intelligence() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="IP Commercialization" />
+                <PageTitle pageName="Competitive Intelligence" />
                <CompetitiveIntelligence/>
             </Layout>
         </>

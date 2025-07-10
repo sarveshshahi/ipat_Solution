@@ -8,7 +8,7 @@ export default function design_patent_drawings() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="IP Commercialization" />
+                <PageTitle pageName="Design Patent Drawings" />
                < DesignPatentDrawings/>
             </Layout>
         </>

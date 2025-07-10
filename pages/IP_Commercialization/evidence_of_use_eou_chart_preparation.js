@@ -9,7 +9,7 @@ export default function evidence_of_use_eou_chart_preparation() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="IP Commercialization" />
+                <PageTitle pageName="Evidence of Use (EoU) Chart Preparation" />
                <EvidenceOfUseChartPreparation />
             </Layout>
         </>

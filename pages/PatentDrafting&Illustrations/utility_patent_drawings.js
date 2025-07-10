@@ -7,7 +7,7 @@ export default function utility_patent_drawings() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="IP Commercialization" />
+                <PageTitle pageName="Utility PatentDrawings" />
                <UtilityPatentDrawings />
             </Layout>
         </>

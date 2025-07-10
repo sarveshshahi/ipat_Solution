@@ -7,7 +7,7 @@ export default function chemical_structure_search() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="Project Details" />
+                <PageTitle pageName=" Design Search" />
                 < Design_Search/>
             </Layout>
         </>

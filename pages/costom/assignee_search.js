@@ -8,7 +8,7 @@ export default function assignee_search() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="Services" />
+                <PageTitle pageName="Assignee Search" />
                 < Assignee_Search/>
             </Layout>
         </>

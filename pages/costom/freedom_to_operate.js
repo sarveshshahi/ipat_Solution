@@ -8,7 +8,7 @@ export default function freedom_to_operate() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="Project Details" />
+                <PageTitle pageName="Freedom To Operate" />
                 < FreedomToOperate/>
             </Layout>
         </>

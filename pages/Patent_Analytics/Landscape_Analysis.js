@@ -7,7 +7,7 @@ export default function Landscape_Analysis() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="IP Commercialization" />
+                <PageTitle pageName="Landscape Analysis" />
                <LandscapeAnalysis/>
             </Layout>
         </>

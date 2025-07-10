@@ -10,7 +10,7 @@ export default function office_action_response() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="IP Commercialization" />
+                <PageTitle pageName="Office Action Response" />
                <OfficeActionResponse />
             </Layout>
         </>

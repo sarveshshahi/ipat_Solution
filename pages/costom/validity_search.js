@@ -8,7 +8,7 @@ export default function validity_search() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="Project Details" />
+                <PageTitle pageName=" Validity Search" />
                 <ValiditySearch />
             </Layout>
         </>

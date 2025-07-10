@@ -9,7 +9,7 @@ export default function patent_drafting() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="IP Commercialization" />
+                <PageTitle pageName="Patent Drafting" />
                <PatentDrafting />
             </Layout>
         </>

@@ -8,7 +8,7 @@ export default function patent_infringement_analysis() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="IP Commercialization" />
+                <PageTitle pageName="Patent Infringer/Licensee Identification" />
                <PatentInfringementAnalysis />
             </Layout>
         </>

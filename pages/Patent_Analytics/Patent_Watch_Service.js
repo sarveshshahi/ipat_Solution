@@ -8,7 +8,7 @@ export default function Patent_Watch_Service() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="IP Commercialization" />
+                <PageTitle pageName="Patent Watch Service" />
                <PatentWatchService/>
             </Layout>
         </>

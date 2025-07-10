@@ -8,7 +8,7 @@ export default function state_of_the_art_search() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="Project Details" />
+                <PageTitle pageName=" State Of The Art Search" />
                 <State_of_the_Art_Search />
             </Layout>
         </>
