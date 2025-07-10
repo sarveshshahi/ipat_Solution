@@ -2,10 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 
 const socialLink = [
-    { href: "https://facebook.com", icon: "fa-facebook-f" },
-    { href: "https://twitter.com", icon: "fa-twitter" },
-    { href: "https://instagram.com", icon: "fa-instagram" },
-    { href: "https://linkedin.com", icon: "fa-linkedin-in" },
+    // { href: "https://facebook.com", icon: "fa-facebook-f" },
+    // { href: "https://twitter.com", icon: "fa-twitter" },
+    // { href: "https://instagram.com", icon: "fa-instagram" },
+    { href: "https://www.linkedin.com/company/ipat-solutions/ ", icon: "fa-linkedin-in" },
 ];
 
 function SocialLinks() {

@@ -17,10 +17,21 @@ const Header8 = ({ scroll }) => {
             <div className="header-top-area d-none d-lg-block">
                 <div className="container">
                     <div className="header-top__wrp">
-                        <ul className="header-top__links">
-                            {/* <li><i className="fa-light fa-location-dot" /><Link href="/">121 King Street, Melbourne</Link></li> */}
-                            <li><i className="fa-light fa-envelope-open-text" /><Link href="/"> info@ipat-solutions.com</Link></li>
-                        </ul>
+                      
+<ul className="header-top__links">
+    <li>
+        <i className="fa-light fa-location-dot" />
+        <Link href="/">Connaught Place, Delhi, India</Link>
+    </li>
+    <li>
+        <i className="fa-light fa-location-dot" />
+        <Link href="/">Bridgeport, Chicago, USA</Link>
+    </li>
+    <li>
+        <i className="fa-light fa-envelope-open-text" />
+        <Link href="/"> info@ipat-solutions.com</Link>
+    </li>
+</ul>
                         <div className="header-top__socials">
                             {/* <Link href="/">
                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">

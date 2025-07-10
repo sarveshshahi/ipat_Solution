@@ -44,38 +44,37 @@ function About() {
                         <div className="about-two-right">
                             <div className="section-header mb-40">
                                 <h2 className="wow splt-txt" data-splitting>
-                                    Let’s Explore Our Intellectual Property Journey
+                                    Who We Are
                                 </h2>
                                 <p className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                   We are a team of the dedicated patent professionals, united by our commitment to our excellence patent services. With years of collective experience acros diverse industries team of this dedicated patent professionals, united by our.
+                                 IPat Solutions is a leading intellectual property (IP) consulting firm dedicated to empowering innovators—from startups, universities, SMEs, to large corporations—by protecting and maximizing the value of their ideas. We are a team of dedicated patent professionals, united by our commitment to excellence in IP services.
                                 </p>
                             </div>
 
-                            <div className="about-two__content">
-                                {/* First List */}
-                                <ul className="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                    {listOne.map((item, index) => (
-                                        <li key={`list1-${index}`}>
-                                            <i className="fa-light fa-check" /> {item}
-                                        </li>
-                                    ))}
-                                </ul>
+<div className="section-header mb-40">
+                                <h2 className="wow splt-txt" data-splitting>
+                                    Our Mission
+                                </h2>
+                                <p className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                 To shield your inventions and creative assets, catalyze business growth, and elevate your competitive edge through bespoke IP-driven solutions.
+                                </p>
+                            </div>
+                           
 
-                                {/* Second List */}
-                                <ul className="wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                    {listTwo.map((item, index) => (
-                                        <li key={`list2-${index}`}>
-                                            <i className="fa-light fa-check" /> {item}
-                                        </li>
-                                    ))}
-                                </ul>
+                           <div className="section-header mb-40">
+                                <h2 className="wow splt-txt" data-splitting>
+                                    Our Vision
+                                </h2>
+                                <p className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                 To become the world’s most trusted and innovative IP consulting partner—where legal precision, technical excellence, and strategic insight converge to secure client success
+                                </p>
                             </div>
 
-                            <Link href="/page-about" legacyBehavior>
+                            {/* <Link href="/page-about" legacyBehavior>
                                 <a className="btn-one mt-50 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms" data-splitting data-text="Know More">
                                     Know More
                                 </a>
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </div>

@@ -14,8 +14,8 @@ export default function AboutUS() {
                 <PageTitle pageName="About Us" />
                 <About />
                 <Projects />
-                <Services />
-                <Pricing />
+                {/* <Services /> */}
+                {/* <Pricing /> */}
                 {/* <Brand /> */}
             </Layout>
         </>
