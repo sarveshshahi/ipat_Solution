@@ -5,10 +5,11 @@ import About from "../components/sections/Home5/About";
 import Feature from "../components/sections/Home5/Feature";
 import Solutions from "../components/sections/Home5/Solutions";
 import Pricing from "../components/sections/Home5/Pricing";
-import Faqs from "../components/sections/Home5/Faqs";
+// import Faqs from "../components/sections/Home5/Faqs";
 import Team from "../components/sections/Home5/Team";
 import Video from "../components/sections/Home5/Video";
 import Testimonial from "../components/sections/Home5/Testimonial";
+import Faqs from "../components/sections/Home5/Faqs";
 import About2 from "../components/sections/Home5/About2";
 import Video2 from "../components/sections/Home5/Video2";
 import Marquee from "../components/sections/Home5/Marquee";
@@ -24,10 +25,10 @@ export default function Home5() {
                 <Feature />
                 {/* <Solutions /> */}
                 {/* <Pricing /> */}
-                <Faqs />
                 {/* <Team /> */}
                 {/* <Video /> */}
                 <Testimonial />
+                <Faqs />
                 {/* <About2 /> */}
                 {/* <Video2 /> */}
                 {/* <Marquee /> */}

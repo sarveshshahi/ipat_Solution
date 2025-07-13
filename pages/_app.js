@@ -26,14 +26,11 @@ function MyApp({ Component, pageProps }) {
                 <div className="animation-preloader">
                     <div className="spinner"></div>
                     <div className="txt-loading">
-                        <span data-text-preloader="S" className="letters-loading">
-                            S
+                        <span data-text-preloader="I" className="letters-loading">
+                            I
                         </span>
-                        <span data-text-preloader="T" className="letters-loading">
-                            T
-                        </span>
-                        <span data-text-preloader="R" className="letters-loading">
-                            R
+                        <span data-text-preloader="P" className="letters-loading">
+                            P
                         </span>
                         <span data-text-preloader="A" className="letters-loading">
                             A
@@ -41,14 +38,32 @@ function MyApp({ Component, pageProps }) {
                         <span data-text-preloader="T" className="letters-loading">
                             T
                         </span>
+                        <span data-text-preloader="S" className="letters-loading">
+                            S
+                        </span>
+                        <span data-text-preloader="O" className="letters-loading">
+                            O
+                        </span>
+                        <span data-text-preloader="L" className="letters-loading">
+                            L
+                        </span>
+                        <span data-text-preloader="U" className="letters-loading">
+                            U
+                        </span>
+                        <span data-text-preloader="T" className="letters-loading">
+                            T
+                        </span>
                         <span data-text-preloader="I" className="letters-loading">
                             I
                         </span>
-                        <span data-text-preloader="F" className="letters-loading">
-                            F
+                        <span data-text-preloader="O" className="letters-loading">
+                            O
                         </span>
-                        <span data-text-preloader="Y" className="letters-loading">
-                            Y
+                        <span data-text-preloader="N" className="letters-loading">
+                            N
+                        </span>
+                        <span data-text-preloader="S" className="letters-loading">
+                            S
                         </span>
                     </div>
                     <p className="text-center">Loading...</p>

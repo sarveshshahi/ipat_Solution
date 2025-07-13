@@ -30,11 +30,11 @@ function About() {
 
                             <div className="about-two__image imageUpToDown wow gsap__parallax">
                                 <img src="	https://ipatsolutions.com/assets/images/resource/about-8.jpg" alt="image" />
-                                <div className="about-two__rectangle">
+                                {/* <div className="about-two__rectangle">
                                     <div className="item-one wow" />
                                     <div className="item-two wow" />
                                     <div className="item-three wow" />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

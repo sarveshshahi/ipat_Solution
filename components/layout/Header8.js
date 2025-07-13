@@ -23,10 +23,10 @@ const Header8 = ({ scroll }) => {
         <i className="fa-light fa-location-dot" />
         <Link href="/">Connaught Place, Delhi, India</Link>
     </li>
-    <li>
+    {/* <li>
         <i className="fa-light fa-location-dot" />
         <Link href="/">Bridgeport, Chicago, USA</Link>
-    </li>
+    </li> */}
     <li>
         <i className="fa-light fa-envelope-open-text" />
         <Link href="/"> info@ipat-solutions.com</Link>
@@ -54,7 +54,7 @@ const Header8 = ({ scroll }) => {
                                     </defs>
                                 </svg>
                             </Link> */}
-                            <Link href="/"><svg width="13" height="15" viewBox="0 0 13 15" fill="none"
+                            <Link href="https://www.linkedin.com/company/ipat-solutions/ "><svg width="13" height="15" viewBox="0 0 13 15" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M12.4991 13.4999V9.10492C12.4991 6.94492 12.0341 5.29492 9.51414 5.29492C8.29914 5.29492 7.48914 5.95492 7.15914 6.58492H7.12914V5.48992H4.74414V13.4999H7.23414V9.52492C7.23414 8.47492 7.42914 7.46992 8.71914 7.46992C9.99414 7.46992 10.0091 8.65492 10.0091 9.58492V13.4849H12.4991V13.4999Z"
