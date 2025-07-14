@@ -46,7 +46,7 @@ function Testimonial() {
                             <div className="testimonial-five-right">
                                 <div className="section-header pb-50 mb-50">
                                     <h6>Our Testimonials</h6>
-                                    <h2 className="wow splt-txt" data-splitting>1250+ People Say About Our Tech Services</h2>
+                                    <h2 className="wow splt-txt" data-splitting>Hundreds of People Say About Our Tech Services</h2>
                                 </div>
                                 <div className="swiper testimonial-five__slider">
                                     <Swiper {...swiperOptions} className="swiper-wrapper">
@@ -60,7 +60,7 @@ function Testimonial() {
                                                 </h4>
                                                 <p className="text">It was great working with Team IPAT, and I appreciate their fantastic support. Thank you for your wonderful contributions that resulted in the success of the projects. We express our gratitude and hope to engage again for future opportunities.</p>
                                                 <div className="ratting">
-                                                    <img src="assets/images/icon/testi-logo.png" alt="icon" />
+                                                    {/* <img src="assets/images/icon/testi-logo.png" alt="icon" /> */}
                                                     <img src="assets/images/icon/five-star.png" alt="icon" />
                                                 </div>
                                             </div>
@@ -75,7 +75,7 @@ function Testimonial() {
                                                 </h4>
                                                 <p className="text">Well done, you have done a very good job on the draft.</p>
                                                 <div className="ratting">
-                                                    <img src="assets/images/icon/testi-logo.png" alt="icon" />
+                                                    {/* <img src="assets/images/icon/testi-logo.png" alt="icon" /> */}
                                                     <img src="assets/images/icon/five-star.png" alt="icon" />
                                                 </div>
                                             </div>
@@ -90,7 +90,7 @@ function Testimonial() {
                                                 </h4>
                                                 <p className="text">IPat Solutions delivered quality work in a timely manner, getting products to market as quickly as possible. The team was both organized and responsive but remained flexible in accommodating changes. Their unique approach to each project was a key strength.</p>
                                                 <div className="ratting">
-                                                    <img src="assets/images/icon/testi-logo.png" alt="icon" />
+                                                    {/* <img src="assets/images/icon/testi-logo.png" alt="icon" /> */}
                                                     <img src="assets/images/icon/five-star.png" alt="icon" />
                                                 </div>
                                             </div>

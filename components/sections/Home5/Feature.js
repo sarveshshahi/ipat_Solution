@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+
 import Link from 'next/link';
 
 function Feature() {
@@ -35,6 +38,7 @@ function Feature() {
                                         </defs>
                                     </svg>
                                 </div>
+                                <img src=""></img>
                                 <div className="content">
                                     <h5 className="mb-20 mt-40 title"><Link href="/costom/PatentabilitySearch">Patent Searches </Link></h5>
                                     {/* <p className="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam</p> */}
@@ -116,6 +120,7 @@ function Feature() {
                                         </defs>
                                     </svg>
                                 </div>
+                                <img></img>
                                 <div className="content">
                                     <h5 className="mb-20 mt-40 title"><Link href="/Patent_Analytics/competitive_intelligences">Patent Analytics</Link></h5>
                                     {/* <p className="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam</p> */}
@@ -127,13 +132,13 @@ function Feature() {
                     </div>
                 </div>
             </div>
-
-            
+        </section>
+        <section>
             <div className="container">
                 <h2 className="mt-120 mb-20">INDUSTRIES</h2>
                 <div className="feature-five__wrp bg-sub">
                     <div className="row g-2">
-                        <div className="col-lg-3">
+                        <div className="col-lg-4">
                             <div className={`feature-five__item ${activeIndex === 1 ? 'active' : ''}`} onMouseEnter={() => setActiveIndex(1)}>
                                 <div className="shape">
                                     <img src="assets/images/shape/feature-five-item-shape.png" alt="shape" />
@@ -157,6 +162,7 @@ function Feature() {
                                         </defs>
                                     </svg>
                                 </div>
+                                <img></img>
                                 <div className="content">
                                     <h5 className="mb-20 mt-40 title"><Link href="/page-services">Technological Science</Link></h5>
                                     {/* <p className="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam</p> */}
@@ -164,7 +170,7 @@ function Feature() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-4">
                             <div className={`feature-five__item ${activeIndex === 2 ? 'active' : ''}`} onMouseEnter={() => setActiveIndex(2)}>
                                 <div className="shape">
                                     <img src="assets/images/shape/feature-five-item-shape.png" alt="shape" />
@@ -181,6 +187,7 @@ function Feature() {
                                         </defs>
                                     </svg>
                                 </div>
+                                <img></img>
                                 <div className="content">
                                     <h5 className="title"><Link href="/IP_Commercialization/patient_valuation_service">Environmental <br></br>science</Link></h5>
                                     {/* <p className="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam</p> */}
@@ -188,7 +195,7 @@ function Feature() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-5">
+                        <div className="col-lg-4">
                             <div className={`feature-five__item ${activeIndex === 2 ? 'active' : ''}`} onMouseEnter={() => setActiveIndex(2)}>
                                 <div className="shape">
                                     <img src="assets/images/shape/feature-five-item-shape.png" alt="shape" />

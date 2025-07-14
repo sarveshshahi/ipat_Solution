@@ -27,15 +27,15 @@ function About() {
     return (
         <>
             
-        <section id="about-menu" className="about-five-area pt-130">
+        <section id="about-menu" className="about-five-area pt-130 .pt-50">
             <div className="container">
                 <div className="row g-5">
                     <div className="col-xl-6">
                         <div className="about-five__image">
                             <img src="https://ipatsolutions.com/assets/images/resource/about-8.jpg" alt="image" />
-                            <div className="icon">
+                            {/* <div className="icon">
                                 <img className="animation__rotate" src="assets/images/about/about-five-icon.png" alt="icon" />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="col-xl-6">

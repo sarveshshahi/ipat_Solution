@@ -34,7 +34,7 @@ function Slider() {
                         </svg>
                         Hello! I’M  <span id="typing-text" data-words="Michel Rony,Consultant"></span>
                     </h4>
-                    <h1 className="title wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms"> Unveiling Patents, Trademarks & Copyrights</h1>
+                    <h1 className="title wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Where Innovation Meets Market Intelligence</h1>
                     {/* <div className="info d-flex gap-3 align-items-center wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <svg data-depth="0.01" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_1349_6825)">
