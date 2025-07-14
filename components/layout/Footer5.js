@@ -42,7 +42,7 @@ function Footer5() {
               <div className="col-lg-5">
                 <div className="footer-eleven-left">
                   <Link href="/" className="logo">
-                    <img src="/assets/images/logo/IPAT.png" alt="logo" />
+                    <img src="/assets/images/logo/Logo PNG.png" alt="logo" />
                   </Link>
                   <p className="mt-20 text">
                     Make your idea into reality with IPAT
@@ -100,7 +100,7 @@ function Footer5() {
                         <h5 className="title">Contact Us</h5>
                         <ul>
                           <li>
-                            <Link href="/"> info@ipat-solutions.com</Link>
+                            <Link href="/">info@ipat-solutions.com</Link>
                           </li>
                           {/* <li>
                             <Link href="/">+1 234 5644 5698</Link>
