@@ -40,18 +40,18 @@ function Contact() {
                             <div className="contact-two-left">
                                 <div className="contact-two__content">
                                     <div className="section-header mb-20">
-                                        <h2 className="wow splt-txt" data-splitting>Contact Us or Visit Us</h2>
+                                        <h2 className="wow splt-txt" data-splitting>Contact Us</h2>
                                     </div>
                                     <ul>
-                                        <li className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        {/* <li className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                                             <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path
                                                     d="M7.50079 0C4.50533 0 2.06836 2.43697 2.06836 5.4324C2.06836 9.14982 6.92985 14.6072 7.13684 14.8377C7.33125 15.0543 7.67068 15.0539 7.86475 14.8377C8.07173 14.6072 12.9332 9.14982 12.9332 5.4324C12.9332 2.43697 10.4962 0 7.50079 0ZM7.50079 8.1656C5.9937 8.1656 4.76763 6.93949 4.76763 5.4324C4.76763 3.92531 5.99373 2.69924 7.50079 2.69924C9.00785 2.69924 10.2339 3.92534 10.2339 5.43243C10.2339 6.93952 9.00785 8.1656 7.50079 8.1656Z"
                                                     fill="#121C27" />
                                             </svg>
-                                            <Link href="/">4140 Parker Rd. Allentown, New Mexico 31134</Link>
-                                        </li>
+                                            <Link href="/">Cannaught Palace, Delhi, India</Link>
+                                        </li> */}
                                         <li className="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                                             <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -68,7 +68,7 @@ function Contact() {
                                                     d="M14.8598 2.96484L10.3398 7.49985L14.8598 12.0346C14.9467 11.8588 15 11.6638 15 11.4548V3.54463C15 3.33563 14.9467 3.14057 14.8598 2.96484Z"
                                                     fill="#121C27" />
                                             </svg>
-                                            <Link href="/">needhelp@example.com, 0123 4463 745</Link>
+                                            <Link href="/">info@ipat-solutions.com</Link>
                                         </li>
                                     </ul>
                                 </div>
