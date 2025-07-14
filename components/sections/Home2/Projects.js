@@ -1,93 +1,54 @@
-import React, { useState } from 'react';
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
-import Link from 'next/link';
-import "swiper/css";
-import "swiper/css/navigation";
-
-const swiperOptions = {
-    modules: [Autoplay, Pagination, Navigation ],
-    slidesPerView: 4,
-    autoplay: {
-        delay: 8500,
-        disableOnInteraction: false,
-    },
-    navigation:{
-        clickable: true,
-        prevEl: ".project__arry-prev",
-        nextEl: ".project__arry-next",
-    },
-    loop: true,
-    breakpoints : {
-        320: {
-            slidesPerView: 1,
-        },
-        575: {
-            slidesPerView: 2,
-        },
-        767: {
-            slidesPerView: 2,
-        },
-        991: {
-            slidesPerView: 2,
-        },
-        1199: {
-            slidesPerView: 3,
-        },
-        1350: {
-            slidesPerView: 4,
-        },
-    }
-}
+import React from 'react';
 
 function Projects() {
-    const [activeTab, setActiveTab] = useState("tab-1");    
+  return (
+    <>
+      <section className="project-details pt-10 pb-80">
+        <div className="container-lg">
+          <div className="project-two__wrp">
+            <div className="project-details__content">
+              <div className="project-details__content-left">
 
-    const handleTabClick = (tabId) => {
-        setActiveTab(tabId);
-    };
+                <h2 className="mb-4 mt-5" style={{ fontSize: '2rem', fontWeight: '600' }}>
+                  What We Do
+                </h2>
 
-    const renderTabImage = (tabId, imageSrc) => {
-        return (
-            <img
-                id={tabId}
-                className={`tab-img ${activeTab === tabId ? 'active' : ''}`}
-                src={imageSrc}
-                alt="image"
-            />
-        );
-    };
+                <p style={{ fontSize: '1.1rem', marginBottom: '2rem' }}>
+                  We provide comprehensive intellectual property (IP) and technology services to help organizations protect, manage, and maximize the value of their innovations.
+                </p>
 
-    return (
-        <>
-          
+                <h3 className="mt-4 mb-3" style={{ fontSize: '1.4rem', fontWeight: '500' }}>
+                  ✅ End-to-End IP Lifecycle Support
+                </h3>
+                <ul className="list-style-two mb-4" style={{ fontSize: '1rem', lineHeight: '1.8' }}>
+                  <li>
+                    <strong>Patent Searches:</strong> Patentability Search (Novelty Search), Freedom to Operate (FTO) Search, Invalidity/Validity Search, State of the Art Search, Design Search, Assignee Search, Chemical Structure Search, Non-Patent Literature Search.
+                  </li>
+                  <li>
+                    <strong>IP Commercialization:</strong> Patent Valuation, Monetization Support, Infringement Analysis, Evidence of Use (EoU) Chart Preparation, Licensing & Monetization, Infringer/Licensee Identification, Patent Mining.
+                  </li>
+                  <li>
+                    <strong>Patent Drafting & Illustrations:</strong> Patent Drafting, Office Action Response, Design Patent Drawings, Utility Patent Drawings.
+                  </li>
+                </ul>
 
-            {/* New Section: What We Do */}
-            <section className="what-we-do-area pt-100 pb-100">
-                <div className="container">
-                    <div className="section-header mb-40">
-                        <h2>What We Do</h2>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <h4>End-to-End IP Lifecycle Support:</h4>
-                            <ul>
-                                <li>Patent Searches – Patentability Search (or Novelty Search), Freedom to Operate (FTO) Search (or Clearance Search), Invalidity/Validity Search, State of the Art Search, Design Search, Assignee Search, Chemical Structure Search, Non-Patent Literature Search.</li>
-                                <li>IP Commercialization – Patent Valuation Service, Patent Monetization Support, Patent Infringement Analysis, Evidence of Use (EoU) Chart Preparation, Patent Licensing and Monetization, Patent Infringer/Licensee Identification, Patent Mining.</li>
-                                <li>Patent Drafting & Illustrations – Patent Drafting, Office Action Response, Design Patent Drawings, Utility Patent Drawings.</li>
-                            </ul>
-                        </div>
-                        <div className="col-lg-6">
-                            <h4>Advanced IP & Technology Services:</h4>
-                            <ul>
-                                <li>Patent Analytics – Competitive Intelligence, Patent Monitoring, Landscape Analysis, Patent Watch Service, Patent Portfolio Management, Patent Competitive Benchmarking.</li>
-                                <li>Technology Consulting – Growth & Innovation Analytics, Innovation & Emerging Technology Consulting, Engineering & R&D Technology Consulting, Technology Forecasting, Technology Scouting & Monitoring, Technology Due Diligence, Sustainability & Green Tech Consulting, Market Research, Market Survey.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </>
-    );
+               
+                <ul className="list-style-two mb-0" style={{ fontSize: '1rem', lineHeight: '1.8' }}>
+                  <li>
+                    <strong>Patent Analytics:</strong> Competitive Intelligence, Patent Monitoring, Landscape Analysis, Patent Watch Service, Portfolio Management, Competitive Benchmarking.
+                  </li>
+                  <li>
+                    <strong>Technology Consulting:</strong> Growth & Innovation Analytics, Emerging Technology Consulting, Engineering & R&D Consulting, Technology Forecasting, Scouting & Monitoring, Due Diligence, Sustainability & Green Tech, Market Research & Survey.
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
+
 export default Projects;

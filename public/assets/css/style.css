@@ -1990,9 +1990,9 @@ figure {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.section-header p {
+/* .section-header p {
   margin-top: 30px;
-}
+} */
 .section-header__flex {
   display: -webkit-box;
   display: -ms-flexbox;

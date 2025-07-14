@@ -30,7 +30,7 @@ function Testimonial() {
                     <div className="row g-5 align-items-center">
                         <div className="col-lg-6">
                             <div className="testimonial-five__image">
-                                <img src="https://stratify-next.vercel.app/assets/images/testimonial/testimonial-five-image.jpg" alt="image" />
+                                <img src="/assets/testimonails.jpg" alt="image" />
                                 {/* <div className="image-content">
                                     <h4 className="title">5m+ Truste<br /> Global Clients</h4>
                                     <div className="users">

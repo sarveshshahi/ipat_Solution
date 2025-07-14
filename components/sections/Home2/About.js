@@ -15,7 +15,7 @@ function About() {
     ];
 
     return (
-        <section id="about-menu" className="about-two-area bg-sub pt-130 pb-130">
+        <section id="about-menu" className="about-two-area bg-sub pt-60 pb-60">
             <div className="container">
                 <div className="row g-5">
                     {/* Left Side */}
@@ -29,7 +29,7 @@ function About() {
                             </div>
 
                             <div className="about-two__image imageUpToDown wow gsap__parallax">
-                                <img src="	https://ipatsolutions.com/assets/images/resource/about-8.jpg" alt="image" />
+                                <img src="/assets/about.jpeg" alt="image" />
                                 {/* <div className="about-two__rectangle">
                                     <div className="item-one wow" />
                                     <div className="item-two wow" />
@@ -42,7 +42,7 @@ function About() {
                     {/* Right Side */}
                     <div className="col-xl-6">
                         <div className="about-two-right">
-                            <div className="section-header mb-40">
+                            <div className="section-header mb-20">
                                 <h2 className="wow splt-txt" data-splitting>
                                     Who We Are
                                 </h2>
@@ -51,7 +51,7 @@ function About() {
                                 </p>
                             </div>
 
-<div className="section-header mb-40">
+<div className="section-header mb-20">
                                 <h2 className="wow splt-txt" data-splitting>
                                     Our Mission
                                 </h2>
@@ -61,7 +61,7 @@ function About() {
                             </div>
                            
 
-                           <div className="section-header mb-40">
+                           <div className="section-header mb-20">
                                 <h2 className="wow splt-txt" data-splitting>
                                     Our Vision
                                 </h2>
