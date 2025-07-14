@@ -261,7 +261,8 @@ const NavLinks = () => {
             </li>
 
             <li>
-                <li><Link href="/TechnologyConsulting/technology_consulting">Consulting Services </Link></li>
+                {/* <li><Link href="/TechnologyConsulting/technology_consulting">Consulting Services </Link></li> */}
+                  <Link href="/TechnologyConsulting/technology_consulting">Consulting Services <i className="fa-solid fa-angle-down"></i></Link>
                 <ul className="sub-menu megamenu">
                     <li>
                         <div className="row">
@@ -270,15 +271,15 @@ const NavLinks = () => {
                                     <li className="title" style={{ color: 'green',fontSize:"18px", fontWeight:700}}>
                                         Technology	 Consulting
                                     </li>
-                                    <li><Link href="/costom/PatentabilitySearch">Growth & Innovation Analytics</Link></li>
-                                    <li><Link href="/costom/freedom_to_operate">Innovation & Emerging Technology Consulting</Link></li>
-                                    <li><Link href="/costom/validity_search">Engineering & R&D Technology Consulting</Link></li>
-                                    <li><Link href="/costom/state_of_the_art_search">Technology Forecasting</Link></li>
-                                    <li><Link href="/costom/design_search">Technology Scouting & Monitoring</Link></li>
-                                    <li><Link href="/costom/assignee_search">Technology Due Diligence</Link></li>
-                                    <li><Link href="/costom/chemical_structure_search">Sustainability & Green Tech Consulting</Link></li>
-                                    <li><Link href="/costom/non_patent_literature_search">Market Research</Link></li>
-                                    <li><Link href="/costom/non_patent_literature_search">Market Survey</Link></li>
+                                    <li><Link href="/TechnologyConsulting/technology_consulting">Growth & Innovation Analytics</Link></li>
+                                    <li><Link href="/TechnologyConsulting/technology_consulting">Innovation & Emerging Technology Consulting</Link></li>
+                                    <li><Link href="/TechnologyConsulting/technology_consulting">Engineering & R&D Technology Consulting</Link></li>
+                                    <li><Link href="/TechnologyConsulting/technology_consulting">Technology Forecasting</Link></li>
+                                    <li><Link href="/TechnologyConsulting/technology_consulting">Technology Scouting & Monitoring</Link></li>
+                                    <li><Link href="/TechnologyConsulting/technology_consulting">Technology Due Diligence</Link></li>
+                                    <li><Link href="/TechnologyConsulting/technology_consulting">Sustainability & Green Tech Consulting</Link></li>
+                                    <li><Link href="/TechnologyConsulting/technology_consulting">Market Research</Link></li>
+                                    <li><Link href="/TechnologyConsulting/technology_consulting">Market Survey</Link></li>
                                     {/* <li><Link href="/index-9">Home Page 09</Link></li>
                                     <li><Link href="/index-10">Home Page 10</Link></li> */}
                                 </ul>
@@ -288,10 +289,10 @@ const NavLinks = () => {
                                      <li className="title" style={{ color: 'green',fontSize:"18px", fontWeight:700}}>
                                        IT Consulting
                                     </li>
-                                    <li><Link href="/IP_Commercialization/patient_valuation_service">Infrastructure Consulting</Link></li>
-                                    <li><Link href="/IP_Commercialization/patent_monetization_support">Data Science & Advanced Analytics Consulting</Link></li>
-                                    <li><Link href="/IP_Commercialization/patent_infringement_analysis">Managed IT Services Consulting</Link></li>
-                                    <li ><Link href="/IP_Commercialization/evidence_of_use_eou_chart_preparation">IT Support Services</Link></li>
+                                    <li><Link href="/TechnologyConsulting/it_consulting">Infrastructure Consulting</Link></li>
+                                    <li><Link href="/TechnologyConsulting/it_consulting">Data Science & Advanced Analytics Consulting</Link></li>
+                                    <li><Link href="/TechnologyConsulting/it_consulting">Managed IT Services Consulting</Link></li>
+                                    <li ><Link href="/TechnologyConsulting/it_consulting">IT Support Services</Link></li>
 
                                 </ul>
                             </div>

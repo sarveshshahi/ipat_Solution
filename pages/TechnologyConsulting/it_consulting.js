@@ -4,13 +4,14 @@ import PageTitle from "../../components/sections/PageTitle";
 
 
 import Technology_Consulting from "@/components/customPages/TechnologyConsulting/Technology_Consulting";
-export default function technology_consulting() {
+import ITConsulting from "../../components/customPages/TechnologyConsulting/ITConsulting";
+export default function itconsulting(){
 
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="technology consulting" />
-               <Technology_Consulting />
+                <PageTitle pageName="IT Consulting" />
+               <ITConsulting />
             </Layout>
         </>
     );
