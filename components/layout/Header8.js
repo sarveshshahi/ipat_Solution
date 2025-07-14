@@ -94,10 +94,10 @@ const Header8 = ({ scroll }) => {
                 <div className="container">
                     <div className="header__main">
                         <Link href="/" className="logo logo-main">
-                            <img src="https://ipatsolutions.com/assets/images/IPAT.png" alt="logo" />
+                            <img src="assets/images/logo/Logo PNG.png" alt="logo" />
                         </Link>
                         <Link href="/" className="logo logo-light">
-                            <img src="https://ipatsolutions.com/assets/images/IPAT.png" alt="logo" />
+                            <img src="assets/images/logo/Logo PNG.png" alt="logo" />
                         </Link>
                         <div className="main-menu main-menu-light">
                             <nav>
@@ -120,7 +120,7 @@ const Header8 = ({ scroll }) => {
 
             <div className={`sidebar-area offcanvas offcanvas-end ${sidebarToggle ? "show" : ""}`} id="menubar">
                 <div className="offcanvas-header">
-                    <Link href="/" className="logo"><img src="assets/images/logo/IPAT.png" alt="logo" /></Link>
+                    <Link href="/" className="logo"><img src="assets/images/logo/Logo PNG.png" alt="logo" /></Link>
                     <button type="button" className="btn-close" onClick={handleToggleSidebar}>
                         <i className="fa-regular fa-xmark" />
                     </button>
