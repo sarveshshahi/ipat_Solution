@@ -121,10 +121,10 @@ function Contact() {
                         </div>
                         <div className="col-xl-6 order-1 order-xl-2">
                             <div className="contact-two__map">
-                                <img src="assets/images/contact/map.png" alt="image" />
-                                <div className="location">
+                                <img src="assets/images/contact/contact-us-image.jpeg" alt="image" />
+                                {/* <div className="location">
                                     <img className="wow bounceIn" src="assets/images/contact/map-location.png" alt="image" />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

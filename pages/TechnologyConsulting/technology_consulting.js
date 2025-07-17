@@ -9,7 +9,7 @@ export default function technology_consulting() {
     return (
         <>
             <Layout HeaderStyle="eight">
-                <PageTitle pageName="technology consulting" />
+                <PageTitle pageName="Technology Consulting" />
                <Technology_Consulting />
             </Layout>
         </>

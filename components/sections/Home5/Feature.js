@@ -5,6 +5,10 @@ const serviceCards = [
     { icon: "fas fa-search", title: "Patent Searches", link: "/costom/PatentabilitySearch" },
     { icon: "fas fa-chart-line", title: "IP Commercialization", link: "/IP_Commercialization/patient_valuation_service" },
     { icon: "fas fa-pencil-ruler", title: "Patent Drafting & Illustrations", link: "/PatentDrafting&Illustrations/patent_drafting" },
+    { icon: "fas fa-chart-pie", title: "Patent Analytics", link: "/Patent_Analytics/competitive_intelligence" },
+    { icon: "fas fa-search", title: "Patent Searches", link: "/costom/Technology Transfer" },
+    { icon: "fas fa-chart-line", title: "IP Commercialization", link: "/IP_Commercialization/patient_valuation_service" },
+    { icon: "fas fa-pencil-ruler", title: "Patent Drafting & Illustrations", link: "/PatentDrafting&Illustrations/patent_drafting" },
     { icon: "fas fa-chart-pie", title: "Patent Analytics", link: "/Patent_Analytics/competitive_intelligence" }
 ];
 

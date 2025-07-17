@@ -19,10 +19,10 @@ const Header8 = ({ scroll }) => {
                     <div className="header-top__wrp">
                       
 <ul className="header-top__links">
-    <li>
+    {/* <li>
         <i className="fa-light fa-location-dot" />
         <Link href="/">Connaught Place, Delhi, India</Link>
-    </li>
+    </li> */}
     {/* <li>
         <i className="fa-light fa-location-dot" />
         <Link href="/">Bridgeport, Chicago, USA</Link>
