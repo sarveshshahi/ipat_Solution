@@ -37,11 +37,11 @@ function Slider() {
     const onSubmit = async (data) => {
         setLoading(true);
         console.log('Form Submitted:', data);
-        setTimeout(() => {
-            setLoading(false);
-            reset();
-            alert('Your message has been sent!');
-        }, 2000);
+       setTimeout(() => {
+    setLoading(false);
+    reset();
+    alert('Your message has not been sent! Please contact info@ipat-solutions.com');
+}, 2000);
     };
 
     return (
