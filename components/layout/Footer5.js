@@ -137,8 +137,8 @@ function Footer5() {
                     <Link href="/">Terms and Condition</Link>
                     <Link href="/">Privacy Policy</Link>
                     <p>
-                      © 2025<Link href="/">Theme Mascot</Link>, All Rights
-                      Reserved
+                      Copyright © 2025 IPAT Solutions.
+                      
                     </p>
                   </div>
                 </div>
