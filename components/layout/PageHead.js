@@ -5,8 +5,8 @@ const PageHead = ({ headTitle }) => {
     return (
         <>
             <Head>
-                <title>{headTitle ? headTitle : "Stratify - Business Consulting React Next JS Template"}</title>
-                <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />                
+                <title>{headTitle ? headTitle : "IPat Solutions"}</title>
+                <link rel="shortcut icon" href="assets/images/logo/Logo PNG.png" type="image/x-icon" />                
             </Head>
         </>
     );

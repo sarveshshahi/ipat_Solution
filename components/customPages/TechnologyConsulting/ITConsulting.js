@@ -10,7 +10,7 @@ function ITConsulting(){
               <div className="col-xl-12">
                 <div className="project-details__content-left">
                   
-                  <h3 className="mb-4 mt-5">IT Consulting (Page 1)</h3>
+                  <h3 className="mb-4 mt-5">IT Consulting </h3>
                   <p>
                     We offer comprehensive IT consulting and support services designed to align technology with your business goals.
                     From robust infrastructure design to advanced data analytics and ongoing managed support, we ensure your IT ecosystem is optimized, secure, and scalable.

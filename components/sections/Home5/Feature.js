@@ -6,10 +6,11 @@ const serviceCards = [
     { icon: "fas fa-chart-line", title: "IP Commercialization", link: "/IP_Commercialization/patient_valuation_service" },
     { icon: "fas fa-pencil-ruler", title: "Patent Drafting & Illustrations", link: "/PatentDrafting&Illustrations/patent_drafting" },
     { icon: "fas fa-chart-pie", title: "Patent Analytics", link: "/Patent_Analytics/competitive_intelligence" },
-    { icon: "fas fa-search", title: "Patent Searches", link: "/costom/Technology Transfer" },
-    { icon: "fas fa-chart-line", title: "IP Commercialization", link: "/IP_Commercialization/patient_valuation_service" },
-    { icon: "fas fa-pencil-ruler", title: "Patent Drafting & Illustrations", link: "/PatentDrafting&Illustrations/patent_drafting" },
-    { icon: "fas fa-chart-pie", title: "Patent Analytics", link: "/Patent_Analytics/competitive_intelligence" }
+    { icon: "fas fa-lightbulb", title: "Technology Transfer", link: "/TechnologyConsulting/technology_consulting" },
+{ icon: "fas fa-bullseye", title: "Competitive Intelligence", link: "/Patent_Analytics/competitive_intelligence" },
+{ icon: "fas fa-search-dollar", title: "Market Research", link: "/TechnologyConsulting/technology_consulting" },
+{ icon: "fas fa-map", title: "Landscape Analysis", link: "/Patent_Analytics/Landscape_Analysis" }
+
 ];
 
 const industryCards = [

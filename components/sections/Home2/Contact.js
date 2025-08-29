@@ -33,7 +33,8 @@ function Contact() {
 
     return (
         <>
-            <section id='contact-menu' className="contact-two-area pt-130 pb-130 bg-sub">
+            <section id='contact-menu' className="contact-two-area pt-130 pb-130 bg-sub " style={{ '@media (min-width: 1400px)': { padding: '4rem !important' } }}
+>
                 <div className="container">
                     <div className="row g-4 g-xl-0 align-items-center">
                         <div className="col-xl-6 order-2 order-xl-1">
@@ -121,7 +122,7 @@ function Contact() {
                         </div>
                         <div className="col-xl-6 order-1 order-xl-2">
                             <div className="contact-two__map">
-                                <img src="assets/images/contact/contact-us-image.jpeg" alt="image" />
+                                <img src="/assets/contact1.jpeg" alt="image" height={"715px"} />
                                 {/* <div className="location">
                                     <img className="wow bounceIn" src="assets/images/contact/map-location.png" alt="image" />
                                 </div> */}

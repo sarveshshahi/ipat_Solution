@@ -1567,11 +1567,11 @@ figure {
   padding-right: 200px;
 }
 
-@media (min-width: 1400px) {
+/* @media (min-width: 1400px) {
   .container {
     max-width: 1784px;
   }
-}
+} */
 @media (max-width: 767px) {
   .pt-130 {
     padding-top: 60px;

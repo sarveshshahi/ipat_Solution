@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { useEffect, useState } from "react";
 import 'animate.css';
 import "swiper/css";
@@ -19,6 +20,11 @@ function MyApp({ Component, pageProps }) {
     }, []);
 
     return (<>
+    <Head>
+                <title>IPat Solutions</title>
+                <meta name="description" content="IPat Solutions - Intellectual Property & Technology Consulting" />
+                <link rel="shortcut icon" href="/assets/images/logo/Logo PNG.png" type="image/x-icon" />
+            </Head>
         {!loading ? (
             <Component {...pageProps} />
         ) : (

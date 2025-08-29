@@ -31,8 +31,8 @@ function About() {
             <div className="container">
                 <div className="row g-5">
                     <div className="col-xl-6">
-                        <div className="about-five__image">
-                            <img src="/assets/HOME.jpeg" alt="image"  height={"540px"}/>
+                        <div className="about-five__image  ">
+                            <img src="/assets/who.jpeg" alt="image"  height={"540px"}/>
                             {/* <div className="icon">
                                 <img className="animation__rotate" src="assets/images/about/about-five-icon.png" alt="icon" />
                             </div> */}
